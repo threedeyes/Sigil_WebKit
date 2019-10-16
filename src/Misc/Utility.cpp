@@ -119,7 +119,11 @@ QStringList Utility::LinuxHunspellDictionaryDirs()
     }
     // Bundled dicts were not installed use standard system dictionary location.
     else if (!dicts_are_bundled) {
+#ifdef __HAIKU__
+        paths.append("/system/data/hunspell");
+#else
         paths.append("/usr/share/hunspell");
+#endif
         // Add additional hunspell dictionary directories. Provided at compile
         // time via the cmake option EXTRA_DICT_DIRS (colon separated list).
         if (!extra_dict_dirs.isEmpty()) {
