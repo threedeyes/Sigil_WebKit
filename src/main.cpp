@@ -327,8 +327,10 @@ int main(int argc, char *argv[])
 #endif
         // Needs to be created on the heap so that
         // the reply has time to return.
+#ifndef __HAIKU__
         UpdateChecker *checker = new UpdateChecker(&app);
         checker->CheckForUpdate();
+#endif
 
         // Install an event filter for the application
         // so we can catch OS X's file open events
