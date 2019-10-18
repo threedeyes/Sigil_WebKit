@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -123,7 +125,7 @@
     <message>
         <location filename="../../Form_Files/ReportsAllFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsAllFilesWidget.ui" line="37"/>
@@ -163,12 +165,16 @@
     <message numerus="yes">
         <location filename="../../Dialogs/ReportsWidgets/AllFilesWidget.cpp" line="148"/>
         <source>%n file(s)</source>
-        <translation><numerusform>%n файл</numerusform><numerusform>%n файла</numerusform><numerusform>%n файлов</numerusform><numerusform>%n файлов</numerusform></translation>
+        <translation>
+            <numerusform>%n файл</numerusform>
+            <numerusform>%n файла</numerusform>
+            <numerusform>%n файлов</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/AllFilesWidget.cpp" line="261"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/AllFilesWidget.cpp" line="274"/>
@@ -211,7 +217,7 @@
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="14"/>
         <source>Appearance</source>
-        <translation>Облик приложения</translation>
+        <translation>Внешний вид приложения</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="24"/>
@@ -221,69 +227,69 @@
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="30"/>
         <source>Book View / Preview:</source>
-        <translation>Просмотр книги / Просмотр:</translation>
+        <translation>Просмотр Книги / ПредПросмотр:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="39"/>
         <source>If no font is specified in the CSS for your page, the following font will be used to display within Sigil. These fonts will not be used in your actual ebook.</source>
-        <translation>Если шрифт для вашей страницы не указан в CSS, следующий шрифт будет использоваться для отображения в Sigil. Эти шрифты не будут использоваться в вашей настоящей книге.</translation>
+        <translation>Если шрифты для вашей страницы не указаны в CSS, нижеследующие шрифты будут использоваться для отображения в Sigil. Эти шрифты не будут использоваться в вашей настоящей книге.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="59"/>
         <source>Default font size to be used for Book View and Preview
 if no font-size specified in your CSS</source>
-        <translation>Размер шрифта по умолчанию, используемый для Книги и Просмотра,
-если шрифт и его размер не указаны в вашем CSS</translation>
+        <translation>Размер шрифта по умолчанию, используемый в режиме Просмотра Книги и ПредПросмотра,
+если размер шрифта не указан в вашем CSS</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="63"/>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="197"/>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="313"/>
         <source>Font Size:</source>
-        <translation>Кегль шрифта:</translation>
+        <translation>Размер шрифта:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="93"/>
         <source>Default font family to be used for Book View and Preview
 if no font-family specified in your CSS</source>
-        <translation>Семейство шрифтов по умолчанию, которые будут использоваться для Книги и Просмотра
- если не указано семейство шрифтов в CSS</translation>
+        <translation>Семейство шрифтов по умолчанию, для использования в режиме Просмотра Книги и ПредПросмотра
+ если семейство шрифтов не указано в CSS</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="97"/>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="227"/>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="346"/>
         <source>Standard Font:</source>
-        <translation>Шрифт по умолчанию:</translation>
+        <translation>Стандартный Шрифт:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="107"/>
         <source>Default font family to be used for Book View and Preview
 if a serif font-family specified in your CSS</source>
-        <translation>Семейство шрифтов по умолчанию, которые будут использоваться для Книги и Просмотра,
- если семейство шрифтов с засечками указано в вашем CSS</translation>
+        <translation>Семейство шрифтов по умолчанию, для использования в режиме Просмотра Книги и ПредПросмотра
+если семейство шрифтов с засечками указано в CSS</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="111"/>
         <source>Serif Font:</source>
-        <translation>Шрифт с засечками:</translation>
+        <translation>Шрифт с засечками (serif):</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="121"/>
         <source>Default font family to be used for Book View and Preview
 if a sans-serif font-family specified in your CSS</source>
-        <translation>Семейство шрифтов по умолчанию, которые будут использоваться для Книги и Просмотра,
+        <translation>Семейство шрифтов по умолчанию, для использования в режиме Просмотра Книги и ПредПросмотра
 если семейство шрифтов без засечек указано в CSS</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="125"/>
         <source>Sans-Serif Font:</source>
-        <translation>Шрифт без засечек:</translation>
+        <translation>Шрифт без засечек (sans-serif):</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="171"/>
         <source>CSS / Code View:</source>
-        <translation>CSS / Просмотр кода:</translation>
+        <translation>CSS / Просмотр Кода:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="181"/>
@@ -293,12 +299,12 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="194"/>
         <source>Font size to be used for text in Code View.</source>
-        <translation>Размер шрифта, используемый для текста при просмотре кода.</translation>
+        <translation>Размер шрифта, используемый для текста в режиме Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="224"/>
         <source>Font family to be used for text in Code View.</source>
-        <translation>Семейство шрифтов, которые будут использоваться для текста в окне просмотра кода.</translation>
+        <translation>Семейство шрифтов, используемое для текста в режиме Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="263"/>
@@ -308,7 +314,7 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="266"/>
         <source>Custom Color...</source>
-        <translation>Свой цвет...</translation>
+        <translation>Свой Цвет…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="296"/>
@@ -323,22 +329,22 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="343"/>
         <source>Font family to be used for Insert Special Characters window</source>
-        <translation>Семейство шрифтов, которые будут использоваться для окна вставки специальных символов</translation>
+        <translation>Семейство шрифтов, используемое для окна вставки специальных символов</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="388"/>
         <source>Menus</source>
-        <translation>Основное меню</translation>
+        <translation>Панели инструментов</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="394"/>
         <source>Main Menu Icon Size</source>
-        <translation>Размер иконок основного меню</translation>
+        <translation>Размер иконок панелей инструментов</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="400"/>
         <source>Adjust the size of the icons in the main menu.</source>
-        <translation>Настройте размер иконок основного меню.</translation>
+        <translation>Настройте размер иконок панелей инструментов.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="476"/>
@@ -348,7 +354,7 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Form_Files/PAppearanceWidget.ui" line="479"/>
         <source>Reset All</source>
-        <translation>Восстановить все</translation>
+        <translation>Значения по умолчанию</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="204"/>
@@ -363,27 +369,27 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="206"/>
         <source>CSS Comment</source>
-        <translation>Комментарий в CSS</translation>
+        <translation>Комментарий CSS</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="207"/>
         <source>CSS Property</source>
-        <translation>Свойство в CSS</translation>
+        <translation>Свойство CSS</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="208"/>
         <source>CSS Quote</source>
-        <translation>Кавычка в CSS</translation>
+        <translation>Кавычки CSS</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="209"/>
         <source>CSS Selector</source>
-        <translation>Селектор в CSS</translation>
+        <translation>Селектор CSS</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="210"/>
         <source>CSS Value</source>
-        <translation>Значение в CSS</translation>
+        <translation>Значение CSS</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="211"/>
@@ -438,7 +444,7 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="221"/>
         <source>XHTML DocType</source>
-        <translation>XHTML DocType</translation>
+        <translation>XHTML Тип Документа</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="222"/>
@@ -481,12 +487,16 @@ if a sans-serif font-family specified in your CSS</source>
         <location filename="../../MainUI/BookBrowser.cpp" line="1430"/>
         <location filename="../../MainUI/BookBrowser.cpp" line="1537"/>
         <source>Open With</source>
-        <translation>Открыть с помощью...</translation>
+        <translation>Открыть с</translation>
     </message>
     <message numerus="yes">
         <location filename="../../MainUI/BookBrowser.cpp" line="127"/>
         <source>%n file(s)</source>
-        <translation><numerusform>%n файл</numerusform><numerusform>%n файла</numerusform><numerusform>%n файлов</numerusform><numerusform>%n файлов</numerusform></translation>
+        <translation>
+            <numerusform>%n файл</numerusform>
+            <numerusform>%n файла</numerusform>
+            <numerusform>%n файлов</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="217"/>
@@ -501,7 +511,7 @@ if a sans-serif font-family specified in your CSS</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="217"/>
         <source>Are you sure you want to sort the selected files alphanumerically?</source>
-        <translation>Вы уверены, что хотите отсортировать выбранные файлы по алфавиту и порядку чисел?</translation>
+        <translation>Вы уверены, что хотите отсортировать выбранные файлы в буквенно-цифровом порядке?</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="217"/>
@@ -543,7 +553,7 @@ if a sans-serif font-family specified in your CSS</source>
 OK to replace?</source>
         <translation>Медиафайл &quot;%1&quot; уже есть в книге.
 
-Нажмите ОК для замены.</translation>
+Нажмёте ОК для замены?</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="640"/>
@@ -564,7 +574,7 @@ A file with this name already exists in the book.</source>
         <source>The following file(s) were not loaded due to invalid content or not well formed XML:
 
 %1</source>
-        <translation>Следующие файлы не были загружены из-за недействительного содержимого или ошибок в структуре XML:
+        <translation>Следующие файлы не были загружены из-за недостоверного содержимого или ошибок в структуре XML:
 
 %1</translation>
     </message>
@@ -591,12 +601,12 @@ A file with this name already exists in the book.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="801"/>
         <source>One or more files already exists.  OK to overwrite?</source>
-        <translation>Один или несколько файлов уже существуют. Нажмите OK, чтобы заменить.</translation>
+        <translation>Один или несколько файлов уже существуют. Нажмёте OK, чтобы перезаписать?</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="818"/>
         <source>Unable to save files.  Destination may be a directory.</source>
-        <translation>Невозможно сохранить файлы. Конечный объект может быть каталогом.</translation>
+        <translation>Невозможно сохранить файлы. Конечный объект должен быть каталогом.</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="826"/>
@@ -633,7 +643,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1411"/>
         <source>Select All</source>
-        <translation>Выбрать все</translation>
+        <translation>Выбрать всё</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1412"/>
@@ -643,7 +653,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1413"/>
         <source>Add Blank Stylesheet</source>
-        <translation>Добавить пустой стиль</translation>
+        <translation>Добавить пустой файл таблицы стилей</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1414"/>
@@ -684,7 +694,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1422"/>
         <source>None</source>
-        <translation>Никакие</translation>
+        <translation>Ничего</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1423"/>
@@ -699,7 +709,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1425"/>
         <source>Sort</source>
-        <translation>Отсортировать</translation>
+        <translation>Сортировать</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1426"/>
@@ -709,12 +719,12 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1427"/>
         <source>Link Stylesheets...</source>
-        <translation>Связать с таблицей стилей...</translation>
+        <translation>Связать с таблицей стилей…</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1428"/>
         <source>Add Semantics...</source>
-        <translation>Добавить семантику...</translation>
+        <translation>Добавить семантику…</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1429"/>
@@ -729,7 +739,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1445"/>
         <source>Merge with previous file, or merge multiple files into one.</source>
-        <translation>Слияние с предыдущим файлом или объединение нескольких файлов в один.</translation>
+        <translation>Слияние с предыдущим файлом или слияние нескольких файлов в один.</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1448"/>
@@ -739,7 +749,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1450"/>
         <source>Link Stylesheets to selected file(s).</source>
-        <translation>Связать с таблицей стилей в выбранных файлах.</translation>
+        <translation>Связать выбранные файлы с таблицей стилей.</translation>
     </message>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="1452"/>
@@ -767,14 +777,14 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="936"/>
         <source>Open Tab For</source>
-        <translation>Открыть вкладку для...</translation>
+        <translation>Открыть вкладку для</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="954"/>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1159"/>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1161"/>
         <source>Open With</source>
-        <translation>Открыть с помощью...</translation>
+        <translation>Открыть с</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="989"/>
@@ -789,7 +799,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1047"/>
         <source>Add To Clips</source>
-        <translation>Добавить во фрагменты</translation>
+        <translation>Добавить к фрагментам</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1145"/>
@@ -804,7 +814,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1147"/>
         <source>Redo</source>
-        <translation>Вернуть</translation>
+        <translation>Повторить</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1148"/>
@@ -814,12 +824,12 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1149"/>
         <source>Copy</source>
-        <translation>Скопировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1150"/>
         <source>Copy Image</source>
-        <translation>Скопировать изображение</translation>
+        <translation>Копировать изображение</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1151"/>
@@ -844,7 +854,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewEditor.cpp" line="1168"/>
         <source>Inspect Element</source>
-        <translation>Изучить элемент</translation>
+        <translation>Исследовать элемент</translation>
     </message>
 </context>
 <context>
@@ -859,22 +869,22 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ViewEditors/BookViewPreview.cpp" line="274"/>
         <source>Spellcheck mode is not supported in Book View at this time.  Switch to Code View.</source>
-        <translation>Проверка орфографии в режиме Книга сейчас не поддерживается. Переключитесь на Просмотр кода.</translation>
+        <translation>Проверка орфографии в режиме Просмотр Книги в настоящее время не поддерживается. Переключитесь на Просмотр Кода.</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewPreview.cpp" line="339"/>
         <source>Replace is not supported in this view. Switch to Code View.</source>
-        <translation>Замена не поддерживается для этого вида. Переключитесь на Просмотр кода.</translation>
+        <translation>Для этого режима просмотра &quot;Замена&quot; не поддерживается. Переключитесь на Просмотр Кода.</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewPreview.cpp" line="345"/>
         <source>Replace All for the current file is not supported in this view. Switch to Code View.</source>
-        <translation>Заменить все для текущего файла не поддерживается для этого вида. Переключитесь на Просмотр кода.</translation>
+        <translation>Для этого режима просмотра &quot;Заменить всё&quot; для текущего файла не поддерживается. Переключитесь на Просмотр Кода.</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/BookViewPreview.cpp" line="771"/>
         <source>Inspect Element</source>
-        <translation>Изучить элемент</translation>
+        <translation>Исследовать элемент</translation>
     </message>
 </context>
 <context>
@@ -887,7 +897,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Form_Files/ReportsCSSFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsCSSFilesWidget.ui" line="37"/>
@@ -912,7 +922,11 @@ There always has to be at least one.</source>
     <message numerus="yes">
         <location filename="../../Dialogs/ReportsWidgets/CSSFilesWidget.cpp" line="142"/>
         <source>%n file(s)</source>
-        <translation><numerusform>%n файл</numerusform><numerusform>%n файла</numerusform><numerusform>%n файлов</numerusform><numerusform>%n файлов</numerusform></translation>
+        <translation>
+            <numerusform>%n файл</numerusform>
+            <numerusform>%n файла</numerusform>
+            <numerusform>%n файлов</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CSSFilesWidget.cpp" line="146"/>
@@ -922,7 +936,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CSSFilesWidget.cpp" line="273"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CSSFilesWidget.cpp" line="286"/>
@@ -950,7 +964,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../ResourceObjects/CSSResource.cpp" line="100"/>
         <source>This page should disappear once loaded after 3 seconds.</source>
-        <translation>Эта страница должна исчезнуть после загрузки, через 3 секунды.</translation>
+        <translation>Эта страница должна исчезнуть через 3 секунды после загрузки.</translation>
     </message>
     <message>
         <location filename="../../ResourceObjects/CSSResource.cpp" line="101"/>
@@ -968,7 +982,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Form_Files/ReportsCharactersInHTMLFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsCharactersInHTMLFilesWidget.ui" line="37"/>
@@ -998,12 +1012,12 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CharactersInHTMLFilesWidget.cpp" line="81"/>
         <source>Entity Name</source>
-        <translation>Сущность</translation>
+        <translation>Имя Объекта</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CharactersInHTMLFilesWidget.cpp" line="82"/>
         <source>Entity Description</source>
-        <translation>Описание</translation>
+        <translation>Описание Объекта</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CharactersInHTMLFilesWidget.cpp" line="88"/>
@@ -1013,7 +1027,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CharactersInHTMLFilesWidget.cpp" line="249"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/CharactersInHTMLFilesWidget.cpp" line="262"/>
@@ -1036,7 +1050,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Form_Files/ReportsClassesInHTMLFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsClassesInHTMLFilesWidget.ui" line="37"/>
@@ -1061,17 +1075,17 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="86"/>
         <source>Matched Selector</source>
-        <translation>Совпадающий селектор</translation>
+        <translation>Селектор совпадений</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="87"/>
         <source>Found In</source>
-        <translation>Где обнаружено</translation>
+        <translation>Найдено в</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="93"/>
         <source>&lt;p&gt;This is a list of the style classes used in all HTML files and whether or not the style matched a selector in a linked stylesheet.&lt;p&gt;</source>
-        <translation>&lt;p&gt;Это список классов стилей, используемых во всех HTML-файлах и соответствует ли стиль селектору в связанной таблице стилей или нет.&lt;p&gt;</translation>
+        <translation>&lt;p&gt;Это список классов стилей, используемых во всех HTML-файлах независимо от того, соответствует стиль или нет селектору в связанной таблице стилей.&lt;p&gt;</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="94"/>
@@ -1081,12 +1095,12 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="95"/>
         <source>&lt;p&gt;Due to the complexities of CSS you must check your code manually to be certain if a style is used or not.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Из-за сложностей CSS необходимо проверить код вручную, чтобы быть уверенным, используется ли стиль или нет.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Из-за сложностей CSS необходимо проверить код вручную, чтобы быть уверенным, используется стиль или нет.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="229"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ClassesInHTMLFilesWidget.cpp" line="242"/>
@@ -1110,12 +1124,12 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Form_Files/ClipEditor.ui" line="23"/>
         <source>Filter Name:</source>
-        <translation>Фильтровать по названию:</translation>
+        <translation>Фильтр по названию:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ClipEditor.ui" line="28"/>
         <source>Filter All:</source>
-        <translation>Фильтровать по всем полям:</translation>
+        <translation>Фильтр по всем полям:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ClipEditor.ui" line="36"/>
@@ -1210,7 +1224,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="81"/>
         <source>Save your changes.</source>
-        <translation>Сохранить все изменения.</translation>
+        <translation>Сохранить Ваши изменения.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="81"/>
@@ -1220,7 +1234,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="91"/>
         <source>Cannot save entries.</source>
-        <translation>Невозможно сохранить предустановки.</translation>
+        <translation>Невозможно сохранить записи.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="135"/>
@@ -1260,12 +1274,16 @@ There always has to be at least one.</source>
     <message numerus="yes">
         <location filename="../../Dialogs/ClipEditor.cpp" line="525"/>
         <source>CSS entries added: %n</source>
-        <translation><numerusform>CSS-записей добавлено: %n</numerusform><numerusform>CSS-записей добавлено: %n</numerusform><numerusform>CSS-записей добавлено: %n</numerusform><numerusform>CSS-записей добавлено: %n</numerusform></translation>
+        <translation>
+            <numerusform>CSS-записей добавлено: %n</numerusform>
+            <numerusform>CSS-записей добавлено: %n</numerusform>
+            <numerusform>CSS-записей добавлено: %n</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="638"/>
         <source>Edit</source>
-        <translation>Изменить</translation>
+        <translation>Редактировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="639"/>
@@ -1275,7 +1293,7 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="640"/>
         <source>Copy</source>
-        <translation>Скопировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="641"/>
@@ -1305,22 +1323,22 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="646"/>
         <source>Export All</source>
-        <translation>Экспортировать все</translation>
+        <translation>Экспортировать всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="647"/>
         <source>Collapse All</source>
-        <translation>Свернуть все</translation>
+        <translation>Свернуть всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="648"/>
         <source>Expand All</source>
-        <translation>Развернуть все</translation>
+        <translation>Развернуть всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="649"/>
         <source>Autofill</source>
-        <translation>Заполнить автоматически</translation>
+        <translation>Автозаполнение</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="729"/>
@@ -1330,13 +1348,13 @@ There always has to be at least one.</source>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="758"/>
         <source>Sigil: Clip Editor</source>
-        <translation>Редактор фрагментов</translation>
+        <translation>Sigil: Редактор фрагментов</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ClipEditor.cpp" line="759"/>
         <source>The Clip entries may have been modified.
 Do you want to save your changes?</source>
-        <translation>Фрагменты сохранены.
+        <translation>Фрагменты могли быть изменены.
 Сохранить изменения?</translation>
     </message>
 </context>
@@ -1391,12 +1409,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../MainUI/ClipsWindow.cpp" line="99"/>
         <source>Collapse All</source>
-        <translation>Свернуть все</translation>
+        <translation>Свернуть всё</translation>
     </message>
     <message>
         <location filename="../../MainUI/ClipsWindow.cpp" line="100"/>
         <source>Expand All</source>
-        <translation>Развернуть все</translation>
+        <translation>Развернуть всё</translation>
     </message>
 </context>
 <context>
@@ -1404,7 +1422,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="426"/>
         <source>Cannot insert closing tag at this position.</source>
-        <translation>Невозможно вставить сюда закрывающий тег.</translation>
+        <translation>Невозможно вставить закрывающий тег в этой позиции.</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="435"/>
@@ -1474,7 +1492,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1394"/>
         <source>View Image</source>
-        <translation>Просмотреть изображение</translation>
+        <translation>Просмотр изображения</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1395"/>
@@ -1484,12 +1502,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1421"/>
         <source>Mark Selected Text</source>
-        <translation>Отметить выделенный текст</translation>
+        <translation>Пометить выделенный текст</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1423"/>
         <source>Unmark Marked Text</source>
-        <translation>Убрать отметку с отмеченного текста</translation>
+        <translation>Снять пометку с текста</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1449"/>
@@ -1499,7 +1517,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1459"/>
         <source>Add To Clips</source>
-        <translation>Добавить во фрагменты</translation>
+        <translation>Добавить к фрагментам</translation>
     </message>
     <message>
         <location filename="../../ViewEditors/CodeViewEditor.cpp" line="1585"/>
@@ -1517,7 +1535,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="56"/>
         <source>Background</source>
-        <translation>Задний план</translation>
+        <translation>Фон</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/AppearanceWidget.cpp" line="58"/>
@@ -1591,7 +1609,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Form_Files/EditTOC.ui" line="14"/>
         <source>Edit Table Of Contents</source>
-        <translation>Изменить оглавление</translation>
+        <translation>Редактировать Оглавление</translation>
     </message>
     <message>
         <location filename="../../Form_Files/EditTOC.ui" line="52"/>
@@ -1657,7 +1675,7 @@ You can also use the right arrow key.</source>
     <message>
         <location filename="../../Dialogs/EditTOC.cpp" line="85"/>
         <source>TOC Entry</source>
-        <translation>Элемент</translation>
+        <translation>Элемент Оглавления</translation>
     </message>
     <message>
         <location filename="../../Dialogs/EditTOC.cpp" line="86"/>
@@ -1682,12 +1700,12 @@ You can also use the right arrow key.</source>
     <message>
         <location filename="../../Dialogs/EditTOC.cpp" line="457"/>
         <source>Expand All</source>
-        <translation>Развернуть все</translation>
+        <translation>Развернуть всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/EditTOC.cpp" line="458"/>
         <source>Collapse All</source>
-        <translation>Свернуть все</translation>
+        <translation>Свернуть всё</translation>
     </message>
 </context>
 <context>
@@ -1695,7 +1713,7 @@ You can also use the right arrow key.</source>
     <message>
         <location filename="../../Misc/EmbeddedPython.cpp" line="617"/>
         <source>Embedded Python Error</source>
-        <translation>Встроенная ошибка Python</translation>
+        <translation>Ошибка встроенного Python&apos;а</translation>
     </message>
 </context>
 <context>
@@ -1703,12 +1721,12 @@ You can also use the right arrow key.</source>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="20"/>
         <source>Find &amp; Replace</source>
-        <translation>Поиск и замена</translation>
+        <translation>Поиск и Замена</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="55"/>
         <source>Hide Find and Replace</source>
-        <translation>Скрыть поиск и заменить</translation>
+        <translation>Скрыть Поиск и Замена</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="61"/>
@@ -1741,7 +1759,7 @@ You can also use the right arrow key.</source>
         <source>Replace highlighted match (if any),
 then find the Next match in Code View.</source>
         <translation>Заменить выбранное совпадение (если таковые имеются),
-затем найти следующее совпадение в окне Просмотра кода.</translation>
+затем найти следующее совпадение в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="210"/>
@@ -1756,7 +1774,7 @@ then find the Next match in Code View.</source>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="249"/>
         <source>Replace highlighted match (if any) in Code View.</source>
-        <translation>Заменить выбранное совпадение (если таковые имеются) в окне Просмотра кода.</translation>
+        <translation>Заменить выбранное совпадение (если таковые имеются) в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="255"/>
@@ -1766,12 +1784,12 @@ then find the Next match in Code View.</source>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="268"/>
         <source>Replace all matches in Code View.</source>
-        <translation>Заменить все совпадения в окне Просмотра кода.</translation>
+        <translation>Заменить все совпадения в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="274"/>
         <source>Replace All</source>
-        <translation>Заменить все</translation>
+        <translation>Заменить всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="281"/>
@@ -1814,23 +1832,23 @@ then find the Next match in Code View.</source>
 current file or book, and then wrap to the
 other end to continue searching.</source>
         <translation>Поиск от текущей позиции до конца
-текущего файла или книги, а затем оборачивание в
-другой конец, чтобы продолжить поиск.</translation>
+текущего файла или книги, затем переход в
+начало, для продолжения поиска.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="337"/>
         <source>Wrap</source>
-        <translation>Искать везде</translation>
+        <translation>По всему файлу</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="371"/>
         <source>Count all matches in Code View.</source>
-        <translation>Подсчитать все совпадения в окне Просмотра кода.</translation>
+        <translation>Подсчитать все совпадения в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="377"/>
         <source>Count All</source>
-        <translation>Посчитать все</translation>
+        <translation>Посчитать всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/FindReplace.ui" line="384"/>
@@ -1848,19 +1866,27 @@ other end to continue searching.</source>
         <location filename="../../MainUI/FindReplace.cpp" line="334"/>
         <location filename="../../MainUI/FindReplace.cpp" line="1258"/>
         <source>Matches found: %n</source>
-        <translation><numerusform>Совпадений найдено: %n</numerusform><numerusform>Совпадений найдено: %n</numerusform><numerusform>Совпадений найдено: %n</numerusform><numerusform>Совпадений найдено: %n</numerusform></translation>
+        <translation>
+            <numerusform>Совпадений найдено: %n</numerusform>
+            <numerusform>Совпадений найдено: %n</numerusform>
+            <numerusform>Совпадений найдено: %n</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="418"/>
         <location filename="../../MainUI/FindReplace.cpp" line="1282"/>
         <source>No replacements made</source>
-        <translation>Замен не выполнено</translation>
+        <translation>Замен не произведено</translation>
     </message>
     <message numerus="yes">
         <location filename="../../MainUI/FindReplace.cpp" line="420"/>
         <location filename="../../MainUI/FindReplace.cpp" line="1284"/>
         <source>Replacements made: %n</source>
-        <translation><numerusform>Произведено подстановок: %n</numerusform><numerusform>Произведено подстановок: %n</numerusform><numerusform>Произведено подстановок: %n</numerusform><numerusform>Произведено подстановок: %n</numerusform></translation>
+        <translation>
+            <numerusform>Произведено подстановок: %n</numerusform>
+            <numerusform>Произведено подстановок: %n</numerusform>
+            <numerusform>Произведено подстановок: %n</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="621"/>
@@ -1894,7 +1920,7 @@ other end to continue searching.</source>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1425"/>
         <source>What to search for</source>
-        <translation>Что искать</translation>
+        <translation>Как искать</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1426"/>
@@ -1938,7 +1964,7 @@ other end to continue searching.</source>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1436"/>
         <source>Restrict the find or replace to the opened file.  Hold the Ctrl key down while clicking any search buttons to temporarily restrict the search to the Current File.</source>
-        <translation>Запретить поиск или замену в открытом файле. Удерживайте клавишу Ctrl при нажатии любой кнопки поиска, чтобы временно запретить поиск в текущем файле.</translation>
+        <translation>Ограничить поиск или замену открытым файлом. Удерживайте клавишу Ctrl при нажатии любой кнопки поиска, чтобы временно ограничить поиск только в текущем файле.</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1437"/>
@@ -1949,7 +1975,7 @@ other end to continue searching.</source>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1438"/>
         <source>Find or replace in all HTML files in Code View.</source>
-        <translation>Найти или заменить во всех HTML-файлах в окне Просмотра кода.</translation>
+        <translation>Найти или заменить во всех HTML-файлах в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1439"/>
@@ -1960,23 +1986,23 @@ other end to continue searching.</source>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1440"/>
         <source>Restrict the find or replace to the HTML files selected in the Book Browser in Code View.</source>
-        <translation>Запретить поиск и замену в выбранных в Структуре книги HTML-файлах в окне просмотра Кода.</translation>
+        <translation>Ограничить поиск и замену HTML-файлами выбранными в окне Структура Книги в представлении &quot;Код&quot;.</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1442"/>
         <source>To restrict search to selected text, use Search&amp;rarr;Mark Selected Text.</source>
-        <translation>Чтобы ограничить поиск выбранным текстом, используйте Поиск&amp;rarr;Отметить выделенный текст.</translation>
+        <translation>Чтобы ограничить поиск выбранным текстом, используйте Поиск&amp;rarr;Пометить выделенный текст.</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1447"/>
         <location filename="../../MainUI/FindReplace.cpp" line="1448"/>
         <source>Marked Text</source>
-        <translation>Отмеченный текст</translation>
+        <translation>Помеченный текст</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1448"/>
         <source>Restrict the find or replace to the text marked by Search&amp;rarr;Mark Selected Text.  Cleared if you use Undo, enter text, or change views or tabs.</source>
-        <translation>Запретить поиск и замену в отмеченных в Поиск&amp;rarr;Отметить выделенный текст. Очищается, если вы используете Отменить, вводите текст или изменяете режим просмотра или вкладку.</translation>
+        <translation>Ограничить поиск и замену в выделенном тексте после Поиск&amp;rarr;Пометить выделенный текст. Очищается, если вы используете Отменить, вводите текст или изменяете режим просмотра или вкладку.</translation>
     </message>
     <message>
         <location filename="../../MainUI/FindReplace.cpp" line="1452"/>
@@ -2044,12 +2070,12 @@ when creating new or empty Epubs in Sigil.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="24"/>
         <source>Create New or Empty Epubs as:</source>
-        <translation>Сохранять новые или пустые EPUB-документы как:</translation>
+        <translation>Создавать новые или пустые EPUB-документы как:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="30"/>
         <source>Epub Version 2.</source>
-        <translation>EPUB версия 2</translation>
+        <translation>EPUB версия 2.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="33"/>
@@ -2059,7 +2085,7 @@ when creating new or empty Epubs in Sigil.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="43"/>
         <source>Epub Version 3.</source>
-        <translation>EPUB версия 3</translation>
+        <translation>EPUB версия 3.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="46"/>
@@ -2076,19 +2102,19 @@ mended.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="63"/>
         <source>Mend XHTML Source Code On:</source>
-        <translation>Исправлять исходный код XHTML при:</translation>
+        <translation>Исправлять исходный код XHTML если:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="69"/>
         <source>Mend when opening an Epub or HTML file, 
 and when switching from Book View to Code View.</source>
         <translation>Исправлять при открытии EPUB- или HTML-файлов, 
-и при переходе от Просмотра книги к Просмотру кода.</translation>
+и при переключении представления с &quot;Книга&quot; на &quot;Код&quot;.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="73"/>
         <source>Open</source>
-        <translation>Открыть</translation>
+        <translation>Открыть файл</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="80"/>
@@ -2098,7 +2124,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="83"/>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>Сохранить файл</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="93"/>
@@ -2108,12 +2134,12 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="96"/>
         <source> Control Access by Epubs to non-multimedia remote resources.</source>
-        <translation>Контроль доступа EPUB к немультимедийным удалённым ресурсам.</translation>
+        <translation> Контроль доступа EPUB к немультимедийным удалённым ресурсам.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="105"/>
         <source>Check to allow Epubs to access non-multimedia remote resources.</source>
-        <translation>Поставьте галочку, чтобы разрешить EPUB доступ к немультимедийных удалённым ресурсам.</translation>
+        <translation>Поставьте флажок, чтобы разрешить EPUB доступ к немультимедийных удалённым ресурсам.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="108"/>
@@ -2123,17 +2149,17 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="127"/>
         <source>What CSS level to specify for W3C stylesheet validation tool (EPUB2)</source>
-        <translation>Уровень CSS, указывающийся для инструмента проверки таблиц стилей W3C (EPUB2)</translation>
+        <translation>Уровень CSS, который устанавливается для инструмента проверки таблиц стилей W3C (EPUB2)</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="130"/>
         <source>EPUB2 W3C Stylesheet Validation Level:</source>
-        <translation>EPUB 2 уровень для проверки таблицы стилей W3C:</translation>
+        <translation>Уровень EPUB 2 для проверки таблицы стилей W3C:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="139"/>
         <source>W3C stylesheet validator will use CSS level 2 for EPUB2</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS2 для EPUB2</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 2 для EPUB2</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="142"/>
@@ -2144,7 +2170,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="149"/>
         <source>W3C stylesheet validator will use CSS level 2.1 for EPUB2</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS2.1 для EPUB2</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 2.1 для EPUB2</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="152"/>
@@ -2155,7 +2181,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="162"/>
         <source>W3C stylesheet validator will use CSS level 3 for EPUB2</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS3 для EPUB2</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 3 для EPUB2</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="165"/>
@@ -2166,27 +2192,27 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="184"/>
         <source>What CSS Level to specify for W3C stylesheet validation tool (EPUB3)</source>
-        <translation>Уровень CSS, указывающийся для инструмента проверки таблиц стилей W3C (EPUB3)</translation>
+        <translation>Уровень CSS, который устанавливается для инструмента проверки таблиц стилей W3C (EPUB3)</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="187"/>
         <source>EPUB3 W3C Stylesheet Validation Level:</source>
-        <translation>EPUB3 уровень для проверки таблицы стилей W3C:</translation>
+        <translation>Уровень EPUB3 для проверки таблицы стилей W3C:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="196"/>
         <source>W3C stylesheet validator will use CSS level 2 for EPUB3</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS2 для EPUB3</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 2 для EPUB3</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="206"/>
         <source>W3C stylesheet validator will use CSS level 2.1 for EPUB3</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS2.1 для EPUB3</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 2.1 для EPUB3</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="219"/>
         <source>W3C stylesheet validator will use CSS level 3 for EPUB3</source>
-        <translation>W3C-валидатор таблиц стилей будет использовать CSS3 для EPUB3</translation>
+        <translation>W3C-валидатор таблиц стилей будет использовать CSS уровня 3 для EPUB3</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="235"/>
@@ -2196,7 +2222,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="247"/>
         <source>Use to limit (or disable) clipboard history saving between sessions</source>
-        <translation>Используйте для ограничения (или запрета) сохранения буфера обмена между сессиями</translation>
+        <translation>Используйте для ограничения (или запрета) количества элементов сохранённых в буфере обмена между сессиями</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PGeneralSettingsWidget.ui" line="279"/>
@@ -2234,7 +2260,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Misc/GuideItems.cpp" line="110"/>
         <source>A passage containing acknowledgments to entities involved in the realization of the work.</source>
-        <translation>Отрывок, содержащий благодарности всем вовлечённым в создании книги.</translation>
+        <translation>Отрывок, содержащий благодарности всем принимавшим участие в создании книги.</translation>
     </message>
     <message>
         <location filename="../../Misc/GuideItems.cpp" line="111"/>
@@ -2284,7 +2310,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Misc/GuideItems.cpp" line="115"/>
         <source>The publications cover(s), jacket information, etc.</source>
-        <translation>Обложки изданий, информация на обложках и т.д.</translation>
+        <translation>Обложки изданий, информация на суперобложках и т.д.</translation>
     </message>
     <message>
         <location filename="../../Misc/GuideItems.cpp" line="116"/>
@@ -2407,7 +2433,7 @@ and when switching from Book View to Code View.</source>
     <message>
         <location filename="../../Form_Files/ReportsHTMLFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsHTMLFilesWidget.ui" line="37"/>
@@ -2472,12 +2498,16 @@ and when switching from Book View to Code View.</source>
     <message numerus="yes">
         <location filename="../../Dialogs/ReportsWidgets/HTMLFilesWidget.cpp" line="190"/>
         <source>%n file(s)</source>
-        <translation><numerusform>%n файл</numerusform><numerusform>%n файла</numerusform><numerusform>%n файлов</numerusform><numerusform>%n файлов</numerusform></translation>
+        <translation>
+            <numerusform>%n файл</numerusform>
+            <numerusform>%n файла</numerusform>
+            <numerusform>%n файлов</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/HTMLFilesWidget.cpp" line="331"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/HTMLFilesWidget.cpp" line="344"/>
@@ -2506,7 +2536,7 @@ and when switching from Book View to Code View.</source>
         <location filename="../../Form_Files/HeadingSelector.ui" line="52"/>
         <source>Change the name of the entry in the TOC.
 The heading&apos;s title attribute will be updated in the document.</source>
-        <translation>Измените имя элемента в оглавлении.
+        <translation>Изменить имя элемента в оглавлении.
 Атрибут названия заголовка в документе обновится.</translation>
     </message>
     <message>
@@ -2518,7 +2548,7 @@ The heading&apos;s title attribute will be updated in the document.</source>
     <message>
         <location filename="../../Form_Files/HeadingSelector.ui" line="81"/>
         <source>Decrease the heading level of the selected entry by 1.
-The heading's tag will be updated in the document.
+The heading&apos;s tag will be updated in the document.
 You can also use the left arrow key.</source>
         <translation>Уменьшить уровень заголовка выбранного элемента на 1.
 Тег заголовка в документе обновится.
@@ -2527,7 +2557,7 @@ You can also use the left arrow key.</source>
     <message>
         <location filename="../../Form_Files/HeadingSelector.ui" line="96"/>
         <source>Increase the heading level of the selected entry by 1.
-The heading's tag will be updated in the document.
+The heading&apos;s tag will be updated in the document.
 You can also use the right arrow key.</source>
         <translation>Увеличить уровень заголовка выбранного элемента на 1.
 Тег заголовка в документе обновится.
@@ -2537,8 +2567,8 @@ You can also use the right arrow key.</source>
         <location filename="../../Form_Files/HeadingSelector.ui" line="130"/>
         <source>Only display the items that will be added to the Table Of Contents.
 Check or uncheck an entry to determine if it will be added to the TOC.</source>
-        <translation>Отображать только те элементы, которые будут добавлены в Содержание.
-Поставьте или снимите галочку у элемента, чтобы определить, будет ли она добавлена в оглавлении.</translation>
+        <translation>Отображать только те элементы, которые будут добавлены в Оглавление.
+Поставьте или снимите флажок у элемента, чтобы определить, будет ли он добавлен в оглавление.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/HeadingSelector.ui" line="134"/>
@@ -2611,7 +2641,7 @@ You can then check or uncheck individual headings in the list above.</source>
     <message>
         <location filename="../../Form_Files/ReportsImageFilesWidget.ui" line="34"/>
         <source>List only the file names which contain the text you enter.</source>
-        <translation>Перечислить только имена файлов, которые содержат текст, введённый вами.</translation>
+        <translation>Перечислить только имена файлов, которые содержат введённый вами текст.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ReportsImageFilesWidget.ui" line="37"/>
@@ -2666,7 +2696,11 @@ You can then check or uncheck individual headings in the list above.</source>
     <message numerus="yes">
         <location filename="../../Dialogs/ReportsWidgets/ImageFilesWidget.cpp" line="184"/>
         <source>%n file(s)</source>
-        <translation><numerusform>%n файл</numerusform><numerusform>%n файла</numerusform><numerusform>%n файлов</numerusform><numerusform>%n файлов</numerusform></translation>
+        <translation>
+            <numerusform>%n файл</numerusform>
+            <numerusform>%n файла</numerusform>
+            <numerusform>%n файлов</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ImageFilesWidget.cpp" line="188"/>
@@ -2676,7 +2710,7 @@ You can then check or uncheck individual headings in the list above.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ImageFilesWidget.cpp" line="332"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/ImageFilesWidget.cpp" line="345"/>
@@ -2721,7 +2755,7 @@ You can then check or uncheck individual headings in the list above.</source>
         <location filename="../../Tabs/ImageTab.cpp" line="350"/>
         <location filename="../../Tabs/ImageTab.cpp" line="353"/>
         <source>Open With</source>
-        <translation>Открыть с помощью...</translation>
+        <translation>Открыть с</translation>
     </message>
     <message>
         <location filename="../../Tabs/ImageTab.cpp" line="328"/>
@@ -2736,7 +2770,7 @@ You can then check or uncheck individual headings in the list above.</source>
     <message>
         <location filename="../../Tabs/ImageTab.cpp" line="352"/>
         <source>Copy Image</source>
-        <translation>Скопировать изображение</translation>
+        <translation>Копировать изображение</translation>
     </message>
     <message>
         <location filename="../../Tabs/ImageTab.cpp" line="400"/>
@@ -2749,7 +2783,7 @@ You can then check or uncheck individual headings in the list above.</source>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="143"/>
         <source>Files exist in epub that are not listed in the manifest, they will be ignored</source>
-        <translation type="unfinished"/>
+        <translation>Файлы включённые в epub, но не перечисленные в манифесте, будут проигнорированы</translation>
     </message>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="179"/>
@@ -2761,14 +2795,14 @@ You can then check or uncheck individual headings in the list above.</source>
         <source>This EPUB has HTML files that are not well formed. Sigil can attempt to automatically fix these files, although this can result in data loss.
 
 Do you want to automatically fix the files?</source>
-        <translation>В файле EPUB присутствуют файлы HTML с ошибками в структуре. Можно попытаться их автоматически исправить, однако это может привести к потере данных.
+        <translation>В файле EPUB присутствуют файлы HTML с ошибками в структуре. Sigil попытается исправить их автоматически, однако это может привести к потере данных.
 
 Произвести автоматическое исправление?</translation>
     </message>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="519"/>
         <source>Epub has missing or improperly specified OPF.</source>
-        <translation>OPF отсутствует или неверно сформирован.</translation>
+        <translation>Файл OPF отсутствует или неверно сформирован.</translation>
     </message>
 </context>
 <context>
@@ -2777,7 +2811,7 @@ Do you want to automatically fix the files?</source>
         <location filename="../../Form_Files/IndexEditor.ui" line="14"/>
         <location filename="../../Dialogs/IndexEditor.cpp" line="287"/>
         <source>Index Editor</source>
-        <translation>Редактор указателя</translation>
+        <translation>Редактор указателей</translation>
     </message>
     <message>
         <location filename="../../Form_Files/IndexEditor.ui" line="22"/>
@@ -2818,7 +2852,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="70"/>
         <source>Index Entries</source>
-        <translation>Запись в указателе</translation>
+        <translation>Записи в указателе</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="70"/>
@@ -2833,7 +2867,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="74"/>
         <source>Save your changes.</source>
-        <translation>Сохранить все изменения.</translation>
+        <translation>Сохранить Ваши изменения.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="74"/>
@@ -2843,7 +2877,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="84"/>
         <source>Cannot save entries.</source>
-        <translation>Невозможно сохранить предустановки.</translation>
+        <translation>Невозможно сохранить записи.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="126"/>
@@ -2853,7 +2887,11 @@ Do you want to automatically fix the files?</source>
     <message numerus="yes">
         <location filename="../../Dialogs/IndexEditor.cpp" line="287"/>
         <source>Entries added: %n</source>
-        <translation><numerusform>Записей добавлено: %n</numerusform><numerusform>Записей добавлено: %n</numerusform><numerusform>Записей добавлено: %n</numerusform><numerusform>Записей добавлено: %n</numerusform></translation>
+        <translation>
+            <numerusform>Записей добавлено: %n</numerusform>
+            <numerusform>Записей добавлено: %n</numerusform>
+            <numerusform>Записей добавлено: %n</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="293"/>
@@ -2883,7 +2921,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="422"/>
         <source>Edit</source>
-        <translation>Изменить</translation>
+        <translation>Редактировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="423"/>
@@ -2893,7 +2931,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="424"/>
         <source>Copy</source>
-        <translation>Скопировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="425"/>
@@ -2908,7 +2946,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="427"/>
         <source>Autofill</source>
-        <translation>Заполнить автоматически</translation>
+        <translation>Автозаполнение</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="428"/>
@@ -2928,7 +2966,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="431"/>
         <source>Select All</source>
-        <translation>Выбрать все</translation>
+        <translation>Выбрать всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="506"/>
@@ -2938,7 +2976,7 @@ Do you want to automatically fix the files?</source>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="535"/>
         <source>Sigil: Index Editor</source>
-        <translation>Редактор указателя</translation>
+        <translation>Sigil: Редактор указателей</translation>
     </message>
     <message>
         <location filename="../../Dialogs/IndexEditor.cpp" line="536"/>
@@ -3001,7 +3039,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Form_Files/PKeyboardShortcutsWidget.ui" line="82"/>
         <source>Reset all to default</source>
-        <translation>Сбросить все до исходных значений</translation>
+        <translation>Сбросить всё до исходных значений</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PKeyboardShortcutsWidget.ui" line="85"/>
@@ -3022,7 +3060,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Form_Files/PKeyboardShortcutsWidget.ui" line="141"/>
         <source>Assign this keyboard shortcut, overriding any conflicting usages.</source>
-        <translation>Назначить это сочетание клавиш, отвергая любые конфликтующие использования.</translation>
+        <translation>Назначить это сочетание клавиш, пренебрегая возможными конфликтами использования.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PKeyboardShortcutsWidget.ui" line="144"/>
@@ -3055,7 +3093,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="117"/>
         <source>A passage containing acknowledgments to entities involved in the realization of the work.</source>
-        <translation>Отрывок содержащий благодарности всем вовлечённым в создании книги.</translation>
+        <translation>Отрывок, содержащий благодарности всем принимавшим участие в создании книги.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="118"/>
@@ -3075,7 +3113,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="119"/>
         <source>Explanatory information about passages in the work. Status: Deprecated</source>
-        <translation>Пояснительная информация к отрывкам работы. Статус: устаревшее.</translation>
+        <translation>Пояснительная информация к отрывкам работы. Статус: устаревшее</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="120"/>
@@ -3135,7 +3173,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="125"/>
         <source>A major structural division of a piece of writing.</source>
-        <translation>Основное структурное подразделение написанного.</translation>
+        <translation>Основной структурный раздел написанного.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="126"/>
@@ -3185,7 +3223,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="130"/>
         <source>The publications cover(s), jacket information, etc.</source>
-        <translation>Обложкаи изданий, информация на обложках и т.д.</translation>
+        <translation>Обложкаи изданий, информация на суперобложках и т.д.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="131"/>
@@ -3280,12 +3318,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="140"/>
         <source>Half Title Page</source>
-        <translation type="unfinished"/>
+        <translation>Шмуцтитул</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="140"/>
         <source>The half title page of the work which carries just the title itself.</source>
-        <translation type="unfinished"/>
+        <translation>Шмуцтитул произведения, который содержит только название.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="141"/>
@@ -3310,7 +3348,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="143"/>
         <source>Index</source>
-        <translation>Оглавление</translation>
+        <translation>Указатель</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="143"/>
@@ -3370,12 +3408,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="149"/>
         <source>List of Video Clips</source>
-        <translation>Список видео отрывков</translation>
+        <translation>Список видеоклипов</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="149"/>
         <source>A listing of video clips included in the work.</source>
-        <translation>Перечень видео отрывков, включённых в произведение.</translation>
+        <translation>Перечень видеороликов, включённых в произведение.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="150"/>
@@ -3415,7 +3453,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="153"/>
         <source>A major structural division of a piece of writing, typically encapsulating a set of related chapters.</source>
-        <translation>Основное структурное разделение произведения, обычно включающее набор связанных глав.</translation>
+        <translation>Основная структурная часть произведения, обычно включающая набор связанных глав.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="154"/>
@@ -3460,12 +3498,12 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="158"/>
         <source>Rear Notes</source>
-        <translation type="unfinished"/>
+        <translation>Приложения, указатели</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="158"/>
         <source>A collection of notes appearing at the rear (backmatter) of the work, or at the end of a section.</source>
-        <translation type="unfinished"/>
+        <translation>Приложения или заметки, помещённые в конце (после) произведения, или в конце раздела.</translation>
     </message>
     <message>
         <location filename="../../Misc/Landmarks.cpp" line="159"/>
@@ -5778,6 +5816,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Language.cpp" line="521"/>
         <source>Lushai</source>
+        <translatorcomment>Мізо</translatorcomment>
         <translation>Лушаи</translation>
     </message>
     <message>
@@ -6048,7 +6087,7 @@ Do you want to save your changes?</source>
     <message>
         <location filename="../../Misc/Language.cpp" line="575"/>
         <source>Paraguayan Guaraní</source>
-        <translation type="unfinished"/>
+        <translation>Парагвайский гуарани</translation>
     </message>
     <message>
         <location filename="../../Misc/Language.cpp" line="576"/>
@@ -6511,7 +6550,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/LinkStylesheets.ui" line="48"/>
         <source>Up</source>
-        <translation>Выше</translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="../../Form_Files/LinkStylesheets.ui" line="58"/>
@@ -6521,7 +6560,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/LinkStylesheets.ui" line="61"/>
         <source>Down</source>
-        <translation>Ниже</translation>
+        <translation>Вниз</translation>
     </message>
     <message>
         <location filename="../../Dialogs/LinkStylesheets.cpp" line="60"/>
@@ -6574,32 +6613,32 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="75"/>
         <source>Target File</source>
-        <translation>Цель</translation>
+        <translation>Файл назначения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="76"/>
         <source>Target ID</source>
-        <translation>ID цели</translation>
+        <translation>ID назначения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="77"/>
         <source>Target Exists?</source>
-        <translation>Существует?</translation>
+        <translation>Цель существует?</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="78"/>
         <source>Target Text</source>
-        <translation>Текст цели</translation>
+        <translation>Текст назначения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="79"/>
         <source>Target&apos;s Target File</source>
-        <translation>Цель цели</translation>
+        <translation>Целевые файлы назначения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="80"/>
         <source>Target&apos;s Target ID</source>
-        <translation>ID цели цели</translation>
+        <translation>Целевые ID назначения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="81"/>
@@ -6631,7 +6670,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="343"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/LinksWidget.cpp" line="356"/>
@@ -6664,7 +6703,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="88"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Правка</translation>
+        <translation>&amp;Редактировать</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="92"/>
@@ -6679,7 +6718,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="121"/>
         <source>Cli&amp;p</source>
-        <translation>Фрагмент</translation>
+        <translation>&amp;Фрагмент</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="158"/>
@@ -6744,7 +6783,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="317"/>
         <source>Re&amp;format HTML</source>
-        <translation>Переформатировать HTML</translation>
+        <translation>Переформатировать &amp;HTML</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="324"/>
@@ -6754,7 +6793,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="349"/>
         <source>Plugins</source>
-        <translation>Модули</translation>
+        <translation>Плагины</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="367"/>
@@ -6864,7 +6903,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Save the current book.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Сохранить&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Сохранить эту книгу.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Сохранить текущую книгу.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="642"/>
@@ -6883,7 +6922,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Save the current book with a different filename.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Сохранить как&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Сохранить эту книгу в файл с другим именем.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Сохранить текущую книгу в файл с другим именем.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="655"/>
@@ -6898,7 +6937,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="663"/>
         <source>Save a copy of your book to another file name.</source>
-        <translation>Сохранить копию книги под другим именем файла</translation>
+        <translation>Сохранить копию книги под другим именем файла.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="672"/>
@@ -6936,7 +6975,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="699"/>
         <source>Insert a closing tag in Code View.</source>
-        <translation>Вставить закрывающий тег в окне Просмотра кода.</translation>
+        <translation>Вставить закрывающий тег в окне Просмотра Кода.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="702"/>
@@ -6965,16 +7004,16 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="728"/>
         <source>&amp;Redo</source>
-        <translation>В&amp;ернуть</translation>
+        <translation>П&amp;овторить</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="731"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Redo&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Restores the changes reverted by the previous Undo action.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Вернуть&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Повторить&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Восстанавливает изменения, отменённые предыдущим действием Отменить.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Повторить операцию, отменённую предыдущим действием Отменить.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="736"/>
@@ -6984,7 +7023,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="745"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Скопировать</translation>
+        <translation>&amp;Копировать</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="748"/>
@@ -6998,42 +7037,42 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="762"/>
         <source>Align &amp;Left</source>
-        <translation>Выровнять в&amp;лево</translation>
+        <translation>Выравнять в&amp;лево</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="765"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Align Left&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Align the paragraph to the left.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выровнять по левому краю&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выравнять по левому краю&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Выравнивание содержимого по левому краю.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="779"/>
         <source>Align &amp;Right</source>
-        <translation>Выровнять в&amp;право</translation>
+        <translation>Выравнять в&amp;право</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="782"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Align Right&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Align the paragraph to the right.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выровнять по правому краю&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выравнять по правому краю&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Выравнивание содержимого по правому краю.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="796"/>
         <source>&amp;Center</source>
-        <translation>Выровнять по &amp;центру</translation>
+        <translation>Выравнять по &amp;центру</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="799"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Center&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Center the paragraph.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выровнять по центру&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выравнять по центру&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Выравнивание содержимого по центру.&lt;/p&gt;</translation>
     </message>
@@ -7045,14 +7084,14 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="816"/>
         <source>&amp;Justify</source>
-        <translation>Выровнять по &amp;ширине</translation>
+        <translation>Выравнять по &amp;ширине</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="819"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Justify&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Align the paragraph to both the left and right margins.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выровнять по ширине&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Выравнять по ширине&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Выравнивание содержимого по ширине.&lt;/p&gt;</translation>
     </message>
@@ -7092,7 +7131,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Make the selected text italic.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Курсив&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Применение курсивного начертания к выделенному тексту..&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Применение курсивного начертания к выделенному тексту.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="864"/>
@@ -7165,7 +7204,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="933"/>
         <source>Add &amp;Cover...</source>
-        <translation>Добавить о&amp;бложку...</translation>
+        <translation>Добавить о&amp;бложку…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="936"/>
@@ -7179,7 +7218,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="947"/>
         <source>&amp;Metadata Editor...</source>
-        <translation>Редактор &amp;метаданных...</translation>
+        <translation>Редактор &amp;метаданных…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="950"/>
@@ -7198,7 +7237,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="964"/>
         <source>&amp;Generate Table Of Contents...</source>
-        <translation>&amp;Создать оглавление...</translation>
+        <translation>&amp;Создать Оглавление…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="967"/>
@@ -7217,7 +7256,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="977"/>
         <source>&amp;Edit Table Of Contents...</source>
-        <translation>Изменить оглавление...</translation>
+        <translation>Р&amp;едактировать Оглавление…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="980"/>
@@ -7238,21 +7277,21 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Book View&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Edit and display the files in your book as they will appear to readers.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Книга&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Вид &quot;Книга&quot;&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Изменять и отображать файлы в книге так, как они будут выглядеть при чтении.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1011"/>
         <source>&amp;Code View</source>
-        <translation>&amp;Просмотр кода</translation>
+        <translation>&amp;Код</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1014"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Code View&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Edit and display the actual contents of the files in your book, including the formatting codes that control how your book will appear to readers.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Просмотр кода&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Вид &quot;Код&quot;&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Редактирование и просмотр фактического содержания файлов в книге, включая код форматирования, контролирующий отображение книги в программах чтения электронных книг.&lt;/p&gt;</translation>
     </message>
@@ -7264,7 +7303,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1024"/>
         <source>Toggle Book View to Code View or Code View to Book View</source>
-        <translation>Переключиться между окнами Просмотра книги и Просмотра кода</translation>
+        <translation>Переключиться между режимами представления &quot;Книга&quot; и &quot;Код&quot;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1027"/>
@@ -7293,7 +7332,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1053"/>
         <source>&amp;File...</source>
-        <translation>&amp;Файл...</translation>
+        <translation>&amp;Файл…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1056"/>
@@ -7306,7 +7345,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Выберите изображение, звуковой или видеофайл из книги для вставки в текст.&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Вы можете добавить файлы в книгу через меню Файл - Вставка - Файл.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Вы можете добавить файлы в книгу через меню Файл - Вставка - Существующие Файлы.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1063"/>
@@ -7316,7 +7355,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1072"/>
         <source>&amp;Special Character...</source>
-        <translation>Спе&amp;циальный символ...</translation>
+        <translation>Спе&amp;циальный символ…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1075"/>
@@ -7330,7 +7369,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1086"/>
         <source>I&amp;D...</source>
-        <translation>I&amp;D...</translation>
+        <translation>I&amp;D…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1089"/>
@@ -7344,7 +7383,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1100"/>
         <source>&amp;Link...</source>
-        <translation>&amp;Ссылка...</translation>
+        <translation>&amp;Ссылка…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1103"/>
@@ -7469,12 +7508,12 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1240"/>
         <source>Zoom &amp;In</source>
-        <translation>&amp;Приблизить</translation>
+        <translation>&amp;Увеличить</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1243"/>
         <source>Zoom In</source>
-        <translation>Приблизить</translation>
+        <translation>Увеличить масштаб</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1246"/>
@@ -7484,12 +7523,12 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1255"/>
         <source>Zoom &amp;Out</source>
-        <translation>&amp;Отдалить</translation>
+        <translation>У&amp;меньшить</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1258"/>
         <source>Zoom Out</source>
-        <translation>Отдалить</translation>
+        <translation>Уменьшить масштаб</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1261"/>
@@ -7504,7 +7543,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1269"/>
         <source>Show the enclosing tag HTML for the cursor position in Book View.</source>
-        <translation>Показать завершающий тег HTML на месте курсора в окне просмотра Кода.</translation>
+        <translation>Показать завершающий тег HTML на месте курсора в режиме &quot;Книга&quot;.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1272"/>
@@ -7514,14 +7553,14 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1281"/>
         <source>&amp;Find &amp;&amp; Replace...</source>
-        <translation>&amp;Найти и заменить...</translation>
+        <translation>&amp;Найти и Заменить…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1284"/>
         <source>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Find &amp;amp; Replace&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Find and replace text in the document.&lt;/p&gt;</source>
-        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Найти и заменить&lt;/b&gt;&lt;/p&gt;
+        <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Найти и Заменить&lt;/b&gt;&lt;/p&gt;
 
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Найти и заменить текст в документе.&lt;/p&gt;</translation>
     </message>
@@ -7582,9 +7621,9 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
      &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Set paragraph direction left to right.&lt;/p&gt;
     </source>
         <translation>
-     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Направление теста слева-направо&lt;/b&gt;&lt;/p&gt;
+     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Направление текста слева-направо&lt;/b&gt;&lt;/p&gt;
 
-     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление теста слева-направо.&lt;/p&gt;
+     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление ткеста слева-направо.&lt;/p&gt;
     </translation>
     </message>
     <message>
@@ -7600,9 +7639,10 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
      &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Set paragraph direction right to left.&lt;/p&gt;
     </source>
         <translation>
-     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Направление теста справа-налево&lt;/b&gt;&lt;/p&gt;
+     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Направление текста справа-налево&lt;/b&gt;&lt;/p&gt;
 
-     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление теста справа-налево.&lt;/p&gt;</translation>
+     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление текста справа-налево.&lt;/p&gt;
+    </translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1364"/>
@@ -7619,7 +7659,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
         <translation>
      &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;По умолчанию&lt;/b&gt;&lt;/p&gt;
 
-     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление теста по умолчанию.&lt;/p&gt;
+     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает направление текста по умолчанию.&lt;/p&gt;
     </translation>
     </message>
     <message>
@@ -7635,7 +7675,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1388"/>
         <source>&amp;Lowercase</source>
-        <translation>В &amp;нижнем регистре</translation>
+        <translation>&amp;Нижний регистр</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1391"/>
@@ -7645,9 +7685,10 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
      &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Set selected text to lowercase.&lt;/p&gt;
     </source>
         <translation>
-&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;все строчные&lt;/b&gt;&lt;/p&gt;
+     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;все строчные&lt;/b&gt;&lt;/p&gt;
 
- &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает нижний регистр для выделенного текста.&lt;/p&gt;</translation>
+     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает нижний регистр для выделенного текста.&lt;/p&gt;
+    </translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1398"/>
@@ -7657,7 +7698,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1407"/>
         <source>&amp;Uppercase</source>
-        <translation>В &amp;верхнем регистре</translation>
+        <translation>&amp;Верхний регистр</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1410"/>
@@ -7667,9 +7708,9 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
      &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Set selected text to uppercase.&lt;/p&gt;
     </source>
         <translation>
-     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Все заглавные&lt;/b&gt;&lt;/p&gt;
+     &lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;ВСЕ ЗАГЛАВНЫЕ&lt;/b&gt;&lt;/p&gt;
 
-     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает верхний регистр для выделенного текста..&lt;/p&gt;
+     &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Устанавливает верхний регистр для выделенного текста.&lt;/p&gt;
     </translation>
     </message>
     <message>
@@ -7716,7 +7757,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1454"/>
         <source>Sigil Website...</source>
-        <translation>Сайт Sigil...</translation>
+        <translation>Сайт Sigil…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1459"/>
@@ -7781,7 +7822,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1505"/>
         <source>User &amp;Guide...</source>
-        <translation>&amp;Руководство пользователя...</translation>
+        <translation>&amp;Руководство пользователя…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1508"/>
@@ -7806,7 +7847,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1524"/>
         <source>&amp;Tutorials...</source>
-        <translation>&amp;Уроки...</translation>
+        <translation>&amp;Уроки…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1527"/>
@@ -7816,7 +7857,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1532"/>
         <source>Well-Formed Check &amp;EPUB</source>
-        <translation>Проверка правильности  формата &amp;EPUB</translation>
+        <translation>Проверка правильности формата &amp;EPUB</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1535"/>
@@ -7849,7 +7890,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1559"/>
         <source>&amp;Spellcheck...</source>
-        <translation>&amp;Орфография...</translation>
+        <translation>&amp;Орфография…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1562"/>
@@ -7858,7 +7899,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Find all misspelled words and allow you to add them to a dictionary or ignore them.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Проверка орфографии&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Находит все слова с ошибками и позволяет добавить их в словарь или проигнорировать их.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Находит все слова с ошибками и позволяет исправить, добавить в словарь или проигнорировать их.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1567"/>
@@ -7873,7 +7914,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1578"/>
         <source>Enable or disable highlighting of misspelled words in Code View.</source>
-        <translation>Переключает выделение слов с ошибками в окне Просмотра кода.</translation>
+        <translation>Переключает выделение слов с ошибками в режиме &quot;Код&quot;.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1583"/>
@@ -7923,7 +7964,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1618"/>
         <source>&amp;Index Editor...</source>
-        <translation>&amp;Редактор указателя...</translation>
+        <translation>&amp;Редактор указателей…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1621"/>
@@ -7933,17 +7974,17 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1626"/>
         <source>&amp;Delete Unused Media Files...</source>
-        <translation>У&amp;далить неиспользуемые медиафайлы...</translation>
+        <translation>У&amp;далить неиспользуемые медиафайлы…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1631"/>
         <source>Delete &amp;Unused Stylesheet Classes...</source>
-        <translation>Удалить неиспользуемые к&amp;лассы стилей...</translation>
+        <translation>Удалить неиспользуемые к&amp;лассы стилей…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1636"/>
         <source>&amp;Reports...</source>
-        <translation>От&amp;чёты...</translation>
+        <translation>От&amp;чёты…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1639"/>
@@ -7953,7 +7994,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1648"/>
         <source>&amp;Donate...</source>
-        <translation>&amp;Пожертвовать...</translation>
+        <translation>&amp;Пожертвовать…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1651"/>
@@ -8039,7 +8080,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1715"/>
         <source>Replace &amp;All</source>
-        <translation>Заменить &amp;все</translation>
+        <translation>Заменить &amp;всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1718"/>
@@ -8049,7 +8090,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1723"/>
         <source>&amp;Count All</source>
-        <translation>Пос&amp;читать все</translation>
+        <translation>Пос&amp;читать всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1726"/>
@@ -8059,7 +8100,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1731"/>
         <source>Mar&amp;k Selected Text</source>
-        <translation>От&amp;метить выделенный текст</translation>
+        <translation>По&amp;метить выделенный текст</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1739"/>
@@ -8074,17 +8115,17 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1749"/>
         <source>Replace &amp;All In File</source>
-        <translation>&amp;Заменить все в файле</translation>
+        <translation>&amp;Заменить всё в файле</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1754"/>
         <source>&amp;Count All In File</source>
-        <translation>&amp;Посчитать все в файле</translation>
+        <translation>&amp;Посчитать всё в файле</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1759"/>
         <source>&amp;Saved Searches...</source>
-        <translation>Предустановки поиска и &amp;замены...</translation>
+        <translation>Сохранённые Поиск и &amp;Замена…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1762"/>
@@ -8094,7 +8135,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1767"/>
         <source>&amp;Clip Editor...</source>
-        <translation>Редактор &amp;фрагментов...</translation>
+        <translation>Редактор &amp;фрагментов…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1770"/>
@@ -8359,7 +8400,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="1968"/>
         <source>&amp;Preferences...</source>
-        <translation>&amp;Настройки...</translation>
+        <translation>&amp;Настройки…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="1971"/>
@@ -8393,7 +8434,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 1 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 1&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 1-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 1-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2002"/>
@@ -8412,7 +8453,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 2 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 2&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 2-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 2-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2022"/>
@@ -8431,7 +8472,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 3 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 3&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 3-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 3-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2042"/>
@@ -8450,7 +8491,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 4 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 4&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 4-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 4-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2062"/>
@@ -8469,7 +8510,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 5 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 5&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 5-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 5-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2082"/>
@@ -8488,7 +8529,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a level 6 heading.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Заголовок 6&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать абзац как заголовок 6-го уровня.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать абзац как заголовок 6-го уровня.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2102"/>
@@ -8507,7 +8548,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Format paragraph as a normal paragraph.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Абзац&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Отформатировать как обычный абзац .&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Форматировать как обычный абзац .&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2122"/>
@@ -8537,7 +8578,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2150"/>
         <source>Existing Files...</source>
-        <translation>Существующие файлы...</translation>
+        <translation>Существующие файлы…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2153"/>
@@ -8546,12 +8587,12 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
 &lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Add files from your computer to the book.&lt;/p&gt;</source>
         <translation>&lt;p style=&quot;padding-top: 0.5em;&quot; &gt;&lt;b&gt;Добавить существующие файлы&lt;/b&gt;&lt;/p&gt;
 
-&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Добавить файлы с компьютера в книгу.&lt;/p&gt;</translation>
+&lt;p style=&quot;margin-left: 0.5em;&quot;&gt;Добавить файлы расположенные на компьютере в книгу.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2160"/>
         <source>Blank Stylesheet</source>
-        <translation>Пустой стиль</translation>
+        <translation>Пустая таблица стилей</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2163"/>
@@ -8601,7 +8642,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2198"/>
         <source>&amp;Add To Index Editor</source>
-        <translation>&amp;Добавить в редактор указателя</translation>
+        <translation>&amp;Добавить в Редактор указателей</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2201"/>
@@ -8616,7 +8657,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2209"/>
         <source>Mark the selected text for inclusion in the Index.</source>
-        <translation>Отметить выбранный текст для включения в указатель.</translation>
+        <translation>Пометить выбранный текст для включения в указатель.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2212"/>
@@ -8636,7 +8677,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2225"/>
         <source>&amp;Create HTML Table Of Contents</source>
-        <translation>Создать &amp;файл HTML с оглавлением</translation>
+        <translation>Создать &amp;файл HTML с Оглавлением</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2228"/>
@@ -8687,7 +8728,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2267"/>
         <source>Edit/Paste From Clipboard &amp;History...</source>
-        <translation>Редактировать/Заменить данными из буфера обмена и истории</translation>
+        <translation>Редактировать/Заменить данными из &amp;истории буфера обмена…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2270"/>
@@ -8707,32 +8748,32 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2283"/>
         <source>Manage Plugins</source>
-        <translation>Управление модулями</translation>
+        <translation>Управление Плагинами</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2292"/>
         <source>Run Plugin 1</source>
-        <translation>Запустить подключаемый модуль 1</translation>
+        <translation>Запустить Плагин 1</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2301"/>
         <source>Run Plugin 2</source>
-        <translation>Запустить подключаемый модуль 2</translation>
+        <translation>Запустить Плагин 2</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2310"/>
         <source>Run Plugin 3</source>
-        <translation>Запустить подключаемый модуль 3</translation>
+        <translation>Запустить Плагин 3</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2319"/>
         <source>Run Plugin 4</source>
-        <translation>Выполнить подключаемый модуль 4</translation>
+        <translation>Выполнить Плагин 4</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2328"/>
         <source>Run Plugin 5</source>
-        <translation>Выполнить подключаемый модуль 5</translation>
+        <translation>Выполнить Плагин 5</translation>
     </message>
     <message>
         <location filename="../../Form_Files/main.ui" line="2333"/>
@@ -8752,7 +8793,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../Form_Files/main.ui" line="2348"/>
         <source>Generate NC&amp;X from Nav</source>
-        <translation>Создать NCX из NAV</translation>
+        <translation>Создать NC&amp;X из NAV</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="325"/>
@@ -8841,7 +8882,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="605"/>
         <source>The file was NOT well formed and may be corrupted.</source>
-        <translation>У файла имеются ошибки в структуре и он может быть повреждён.</translation>
+        <translation>Файл имеет ошибки в структуре и он может быть повреждён.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="633"/>
@@ -8856,7 +8897,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="675"/>
         <source>Sigil is closing...</source>
-        <translation>Sigil закрывается...</translation>
+        <translation>Sigil закрывается…</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="725"/>
@@ -8913,7 +8954,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1062"/>
         <source>found, or stylesheet not linked.</source>
-        <translation type="unfinished"/>
+        <translation>найдено, или таблица стилей не связана.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1142"/>
@@ -8970,12 +9011,12 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1620"/>
         <source>Delete Unused Media Files cancelled due to XML not well formed.</source>
-        <translation>Удалены неиспользуемые изображения из-за ошибок в структуре XML.</translation>
+        <translation>Удалены неиспользуемые медиафайлы из-за ошибок в структуре XML.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1673"/>
         <source>Unused media files deleted.</source>
-        <translation>Неиспользуемые изображения удалены.</translation>
+        <translation>Неиспользуемые медиафайлы удалены.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1675"/>
@@ -8995,7 +9036,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1712"/>
         <source>You cannot insert a file at this position.</source>
-        <translation>Невозможно вставить сюда файл.</translation>
+        <translation>Невозможно вставить файл в эту позицию.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1719"/>
@@ -9011,7 +9052,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
         <location filename="../../MainUI/MainWindow.cpp" line="1815"/>
         <location filename="../../MainUI/MainWindow.cpp" line="1842"/>
         <source>You cannot insert an id at this position.</source>
-        <translation>Невозможно вставить сюда ID.</translation>
+        <translation>Невозможно вставить ID в эту позицию.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1823"/>
@@ -9027,7 +9068,7 @@ Stylesheets that are listed first take precedence over later stylesheets.</sourc
         <location filename="../../MainUI/MainWindow.cpp" line="1855"/>
         <location filename="../../MainUI/MainWindow.cpp" line="1879"/>
         <source>You cannot insert a link at this position.</source>
-        <translation>Невозможно вставить сюда ссылку.</translation>
+        <translation>Невозможно вставить ссылку в эту позицию.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="1863"/>
@@ -9141,13 +9182,13 @@ This action cannot be reversed.</source>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2642"/>
         <source>Text selection marked.</source>
-        <translation>Выделение отмечено.</translation>
+        <translation>Выделение помечено.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2644"/>
         <location filename="../../MainUI/MainWindow.cpp" line="2662"/>
         <source>Text selection unmarked.</source>
-        <translation>Отметка снята.</translation>
+        <translation>Пометка снята.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2750"/>
@@ -9162,32 +9203,32 @@ This action cannot be reversed.</source>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2841"/>
         <source>RunPlugin1</source>
-        <translation>Подключаемый модуль 1</translation>
+        <translation>Плагин 1</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2842"/>
         <source>RunPlugin2</source>
-        <translation>Подключаемый модуль 2</translation>
+        <translation>Плагин 2</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2843"/>
         <source>RunPlugin3</source>
-        <translation>Подключаемый модуль 3</translation>
+        <translation>Плагин 3</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2844"/>
         <source>RunPlugin4</source>
-        <translation>Подключаемый модуль 4</translation>
+        <translation>Плагин 4</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2845"/>
         <source>RunPlugin5</source>
-        <translation>Подключаемый модуль 5</translation>
+        <translation>Плагин 5</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="2876"/>
         <source>This EPUB does not contain any CSS stylesheets to validate.</source>
-        <translation>В этом файле отсутствуют таблицы стилей CSS.</translation>
+        <translation>В этом файле отсутствуют таблицы стилей CSS для валидации.</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="3442"/>
@@ -9268,7 +9309,7 @@ Try setting the Clean Source preference to Mend XHTML Source Code on Open and re
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="3860"/>
         <source>Loading file...</source>
-        <translation>Загрузка файла...</translation>
+        <translation>Загрузка файла…</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="3874"/>
@@ -9293,7 +9334,7 @@ Try setting the Clean Source preference to Mend XHTML Source Code on Open and re
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="3941"/>
         <source>Saving EPUB...</source>
-        <translation>Сохранение файла EPUB...</translation>
+        <translation>Сохранение файла EPUB…</translation>
     </message>
     <message>
         <location filename="../../MainUI/MainWindow.cpp" line="3950"/>
@@ -9429,7 +9470,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="115"/>
         <source>Use for a person or organization who draws the two-dimensional figures, manipulates the three dimensional objects and/or also programs the computer to move objects and images for the purpose of animated film processing. Animation cameras, stands, celluloid screens, transparencies and inks are some of the tools of the animator.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, рисующие двухмерные фигуры, манипулирующего трёхмерными объектами и/или также создающего компьютерные программы для придания объектам и изображениям иллюзии движения. Обычно аниматор использует в качестве инструментов своей деятельности анимационные камеры, стенды, целлулоидные экраны, диапозитивы и чернила.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="116"/>
@@ -9439,7 +9480,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="116"/>
         <source>Use for a person who writes manuscript annotations on a printed item.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое пишет рукописные аннотации на печатные материалы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="117"/>
@@ -9469,7 +9510,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="119"/>
         <source>Use for a person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position).</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за подачу заявления, прошения или лицо или организация, которое признаётся имеющим право на результаты рассмотрения заявления, прошения (напр., на дарование прав, награду, титул, должность).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="120"/>
@@ -9489,27 +9530,27 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="121"/>
         <source>Use for a person or organization who transcribes a musical composition, usually for a different medium from that of the original; in an arrangement the musical substance remains essentially unchanged.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, переложившие музыкальное произведение обычно для иного, чем в оригинале, средства исполнения. При аранжировке музыкальная основа оригинала по существу не изменяется.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="122"/>
         <source>Art copyist</source>
-        <translation type="unfinished"/>
+        <translation>Копиист произведения изобразительного искусства</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="122"/>
         <source>Use for a person (e.g., a painter or sculptor) who makes copies of works of visual art.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо (например, художник или скульптор), изготовляющее копии изобразительного искусства.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="123"/>
         <source>Art director</source>
-        <translation type="unfinished"/>
+        <translation>Арт-директор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="123"/>
         <source>A person contributing to a motion picture or television production by overseeing the artists and craftspeople who build the sets.</source>
-        <translation type="unfinished"/>
+        <translation>Человек, участвующий в создании кинофильмов или телевизионных программ, который администрирует и контролирует работу художников и декораторов, по сооружению декораций.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="124"/>
@@ -9519,7 +9560,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="124"/>
         <source>Use for a person (e.g., a painter) or organization who conceives, and perhaps also implements, an original graphic design or work of art, if specific codes (e.g., [egr], [etr]) are not desired. For book illustrators, prefer Illustrator [ill]. </source>
-        <translation>Лицо или организация, задумавшее и возможно также создавшее оригинальный графический рисунок или произведение искусства. (Используется, если специальные коды (например, [egr], [etr]) нежелательны). Для иллюстраторов книг предпочтителен код [ill].</translation>
+        <translation>Лицо или организация, задумавшее и возможно также создавшее оригинальный графический рисунок или произведение искусства. (Используется, если специальные коды (например, [egr], [etr]) нежелательны). Для иллюстраторов книг предпочтителен код [ill]. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="125"/>
@@ -9544,22 +9585,22 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="127"/>
         <source>Associated name</source>
-        <translation type="unfinished"/>
+        <translation>Ассоциированное имя</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="127"/>
         <source>Use for a person or organization associated with or found in an item or collection, which cannot be determined to be that of a Former owner [fmo] or other designated relator indicative of provenance.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, связанные или упомянутые в каталогизируемой единице или коллекции, но которое не может быть определено как «Бывший владелец» [fmo] или другим образом.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="128"/>
         <source>Attributed name</source>
-        <translation type="unfinished"/>
+        <translation>Предполагаемый автор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="128"/>
         <source>Use for an author, artist, etc., relating him/her to a work for which there is or once was substantial authority for designating that person as author, creator, etc. of the work. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо, в отношении которого имеются или имелись достаточные основания считать это лицо автором, создателем и т. п. произведения. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="129"/>
@@ -9579,27 +9620,27 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="130"/>
         <source>Use for a person or organization chiefly responsible for the intellectual or artistic content of a work, usually printed text. This term may also be used when more than one person or body bears such responsibility. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, несущие основную ответственность за интеллектуальное или художественное содержание произведения, обычно печатного текста. Этот термин может также использоваться, когда более чем один человек или организация несут такую ответственность. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="131"/>
         <source>Author in quotations or text extracts</source>
-        <translation type="unfinished"/>
+        <translation>Автор цитат или выдержек из текста</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="131"/>
         <source>Use for a person or organization whose work is largely quoted or extracted in works to which he or she did not contribute directly. Such quotations are found particularly in exhibition catalogs, collections of photographs, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, чьё произведение широко цитируются в других произведениях, в создании которых он/она не принимали непосредственного участия. Такое цитирование особенно часто используется в каталогах выставок, коллекциях фотографий и т. п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="132"/>
         <source>Author of afterword, colophon, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Автор послесловия, колофона и т.п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="132"/>
         <source>Use for a person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за послесловие, колофон и т.п., но не являющегося автором самого произведения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="133"/>
@@ -9614,12 +9655,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="134"/>
         <source>Author of introduction, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Автор предисловия и т.п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="134"/>
         <source>Use for a person or organization responsible for an introduction, preface, foreword, or other critical introductory matter, but who is not the chief author.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за введение, предисловие, вступление, другой критический вводный материал, но не являющегося автором самого произведения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="135"/>
@@ -9634,52 +9675,52 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="136"/>
         <source>Autographer</source>
-        <translation type="unfinished"/>
+        <translation>Автографёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="136"/>
         <source>A person whose manuscript signature appears on an item.</source>
-        <translation type="unfinished"/>
+        <translation>Человек, лично подписавший экземпляр произведения или вещь.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="137"/>
         <source>Bibliographic antecedent</source>
-        <translation type="unfinished"/>
+        <translation>Библиографический предшественник, антецедент</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="137"/>
         <source>Use for a person or organization responsible for a work upon which the work represented by the catalog record is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за произведение, на котором основано произведение, представленное в библиографической записи. Данный код может применяться в записях на адаптации, указатели, продолжения и т. п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="138"/>
         <source>Binder</source>
-        <translation type="unfinished"/>
+        <translation>Переплётчик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="138"/>
         <source>Use for a person or organization responsible for the binding of printed or manuscript materials.</source>
-        <translation type="unfinished"/>
+        <translation>Использование для лиц или организации, ответственных за оформление печатных или рукописных материалов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="139"/>
         <source>Binding designer</source>
-        <translation type="unfinished"/>
+        <translation>Оформитель обложки</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="139"/>
         <source>Use for a person or organization responsible for the binding design of a book, including the type of binding, the type of materials used, and any decorative aspects of the binding. </source>
-        <translation type="unfinished"/>
+        <translation>Использование для лиц или организации, ответственных за оформление дизайна книги, включая вид переплёта, тип используемых материалов, а также любые декоративные аспекты переплёта. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="140"/>
         <source>Blurb writer</source>
-        <translation type="unfinished"/>
+        <translation>Автор рекламного текста</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="140"/>
         <source>A person or organization responsible for writing a commendation or testimonial for a work, which appears on or within the publication itself, frequently on the back or dust jacket of print publications or on advertising material for all media.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за написание рекомендации или характеристики произведения, которое появляется на самой публикации или внутри неё, часто на оборотной стороне или суперобложке печатных публикаций или на рекламных материалах для всех СМИ.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="141"/>
@@ -9689,17 +9730,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="141"/>
         <source>Use for a person or organization responsible for the entire graphic design of a book, including arrangement of type and illustration, choice of materials, and process used. </source>
-        <translation>Лицо или организация, ответственные за всё графическое оформление книги, включая тип и расположение иллюстраций, выбор материалов и используемый процесс.</translation>
+        <translation>Лицо или организация, ответственные за всё графическое оформление книги, включая тип и расположение иллюстраций, выбор материалов и используемый процесс. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="142"/>
         <source>Book producer</source>
-        <translation type="unfinished"/>
+        <translation>Производитель книг</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="142"/>
         <source>Use for a person or organization responsible for the production of books and other print media, if specific codes (e.g., [bkd], [egr], [tyd], [prt]) are not desired. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за производство книг и других печатных материалов, если специальные коды (например, [bkd], [egr], [tyd], [prt]) не подходят. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="143"/>
@@ -9709,17 +9750,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="143"/>
         <source>Use for a person or organization responsible for the design of flexible covers designed for or published with a book, including the type of materials used, and any decorative aspects of the bookjacket. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за оформление мягкой обложки, созданной для или печатающейся вместе с книгой, включая выбор типа используемых материалов и любых деталей оформления суперобложки. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="144"/>
         <source>Bookplate designer</source>
-        <translation type="unfinished"/>
+        <translation>Оформитель экслибриса</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="144"/>
         <source>Use for a person or organization responsible for the design of a book owner&apos;s identification label that is most commonly pasted to the inside front cover of a book. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за оформление ярлыка, указывающего владельца книги, который обычно наклеивается на внутреннюю переднюю сторону обложки. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="145"/>
@@ -9759,7 +9800,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="148"/>
         <source>Use for a person or organization who writes in an artistic hand, usually as a copyist and or engrosser.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые демонстрируют искусство художественного письма, обычно как переписчик, копировщик.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="149"/>
@@ -9774,12 +9815,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="150"/>
         <source>Caster</source>
-        <translation type="unfinished"/>
+        <translation>Литейщик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="150"/>
         <source>A person, family, or organization involved in manufacturing a resource by pouring a liquid or molten substance into a mold and leaving it to solidify to take the shape of the mold.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, участвующие в производстве продукции путём заливки жидкого или расплавленного материала в литейную форму и оставляя его затвердевать, чтобы получить отливку.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="151"/>
@@ -9789,7 +9830,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="151"/>
         <source>Use for a censor, bowdlerizer, expurgator, etc., official or private. </source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения официального или частного цензора. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="152"/>
@@ -9799,7 +9840,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="152"/>
         <source>Use for a person or organization who composes or arranges dances or other movements (e.g., &quot;master of swords&quot;) for a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, осуществляющие постановку танцев или других движений (например, жонглирование мечами) для музыкальных или театральных представлений и концертов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="153"/>
@@ -9839,17 +9880,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="156"/>
         <source>Use for a person or organization who has brought together material from various sources that has been arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, собравшие материал из различных источников, который впоследствии был классифицирован, описан и каталогизирован как коллекция. Коллекционер не является ни создателем материала, ни лицом, которому рукописные материалы коллекции были адресованы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="157"/>
         <source>Collotyper</source>
-        <translation type="unfinished"/>
+        <translation>Фототипист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="157"/>
         <source>Use for a person or organization responsible for the production of photographic prints from film or other colloid that has ink-receptive and ink-repellent surfaces.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за производство фототипных оттисков с плёнки или другого коллоида на черниловосприимчивой и чернилоотталкивающей поверхности.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="158"/>
@@ -9879,47 +9920,47 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="160"/>
         <source>Use for a person or organization responsible for the commentary or explanatory notes about a text. For the writer of manuscript annotations in a printed book, use Annotator [ann].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за комментарии или пояснения к тексту. Для автора рукописной аннотации в печатной книге используется код [ann] — Автор аннотации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="161"/>
         <source>Compiler</source>
-        <translation type="unfinished"/>
+        <translation>Составитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="161"/>
         <source>Use for a person or organization who produces a work or publication by selecting and putting together material from the works of various persons or bodies.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, создающие произведение или публикацию путём отбора и объединения материала из разных произведений разных лиц или коллективов (организаций).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="162"/>
         <source>Complainant</source>
-        <translation type="unfinished"/>
+        <translation>Истец возмещения</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="162"/>
         <source>Use for the party who applies to the courts for redress, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, которая обращается в суд для получения возмещения, обычно в производстве, основанном на нормах права справедливости (equity proceeding).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="163"/>
         <source>Complainant-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Истец-апеллянт по делу, рассматриваемому на основе права «справедливости»</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="163"/>
         <source>Use for a complainant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Истец, обжалующий в апелляционном порядке решение одного суда в суде высшей инстанции для пересмотра решения, обычно в производстве, основанном на нормах права «справедливости» (equity proceeding).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="164"/>
         <source>Complainant-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Истец-ответчик по апелляции в деле, рассматриваемом на основе права «справедливости»</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="164"/>
         <source>Use for a complainant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Истец, против которого апеллянтом подана апелляция в суд высшей инстанции для пересмотра решения, обычно в производстве, основанном на нормах права «справедливости» (equity proceeding).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="165"/>
@@ -9939,7 +9980,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="166"/>
         <source>Use for a person or organization responsible for the creation of metal slug, or molds made of other materials, used to produce the text and images in printed matter. </source>
-        <translation>Лицо или организация, ответственная за создание металлической формы или литейных форм из других материалов, использованных для создания текста и изображений в печатной продукции.</translation>
+        <translation>Лицо или организация, ответственная за создание металлической формы или литейных форм из других материалов, использованных для создания текста и изображений в печатной продукции. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="167"/>
@@ -9949,7 +9990,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="167"/>
         <source>Use for a person or organization responsible for the original idea on which a work is based, this includes the scientific author of an audio-visual item and the conceptor of an advertisement.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за оригинальную идею, на которой основано произведение, включая автора научной концепции аудио-визуального материала и автора рекламной концепции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="168"/>
@@ -9989,67 +10030,67 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="171"/>
         <source>Use for a person or organization relevant to a resource, who is engaged specifically to provide an intellectual overview of a strategic or operational task and by analysis, specification, or instruction, to create or propose a cost-effective course of action or solution.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, имеющие отношение к ресурсу и нанимаемые для общего интеллектуального наблюдения за стратегическими и оперативными задачами и для выработки или предложения решения или эффективного направления деятельности посредством анализа, разработки спецификаций или инструкций.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="172"/>
         <source>Contestant</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, выдвигающая в суде возражения против искового требования, постановления, решения</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="172"/>
         <source>Use for the party who opposes, resists, or disputes, in a court of law, a claim, decision, result, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, выступающая противником, конкурентом, или стороной, оспаривающей в судебном порядке поданный иск, решение, результат судебного разбирательства и т. д. в суде.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="173"/>
         <source>Contestant-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, выдвигающая в суде возражения против искового требования, постановления, решения и т. п. и подавшая апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="173"/>
         <source>Use for a contestant who takes an appeal from one court of law or jurisdiction to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона в споре, которая обжалует в апелляционном порядке решение суда низшей инстанции в суде высшей инстанции для пересмотра решения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="174"/>
         <source>Contestant-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, выдвигающая в суде возражения против искового требования, постановления, решения и т. п., против которой подана апелляционная жалоба в апелляционном процессе</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="174"/>
         <source>Use for a contestant against whom an appeal is taken from one court of law or jurisdiction to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона в споре, против которой апеллянтом подана апелляция в суд высшей инстанции для пересмотра решения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="175"/>
         <source>Contestee</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, отстаивающая своё исковое требование, постановление, решение и т. п., против которых ответчиком выдвинуты возражения в суде</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="175"/>
         <source>Use for the party defending a claim, decision, result, etc. being opposed, resisted, or disputed in a court of law.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона в процессе, защищающаяся от предъявленного ей искового требования или оспаривающей вынесенное против неё решение или результат судебного разбирательства в судах «общего права».</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="176"/>
         <source>Contestee-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, отстаивающая своё исковое требование, постановление, решение и т. п., против которых ответчиком выдвинуты возражения в суде, и подавшая апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="176"/>
         <source>Use for a contestee who takes an appeal from one court or jurisdiction to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, подающая апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="177"/>
         <source>Contestee-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Противная сторона, отстаивающая своё исковое требование, постановление, решение и т. п., против которых ответчиком выдвинуты возражения в суде и против которой подана апелляционная жалоба в апелляционном процессе</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="177"/>
         <source>Use for a contestee against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, против которой подана апелляционная жалоба в суд высшей инстанции для пересмотра судебного решения по делу.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="178"/>
@@ -10069,7 +10110,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="179"/>
         <source>Use for a person or organization one whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. Do not use if the sole function in relation to a work is as author, editor, compiler or translator.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, произведение которого вошло в более крупное произведение, такое как антология, сериальное издание или другая компиляция авторских произведений. Этот код не следует использовать, если единственной ролью лица (или организации) относительно произведения является роль автора, издателя, составителя или переводчика.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="180"/>
@@ -10089,57 +10130,57 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="181"/>
         <source>Use for a person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которым были предоставлены или переданы законные права на интеллектуальное содержание произведения и его копирование. Не всегда являясь создателем произведения, владелец авторского права обычно обладает исключительным правом на финансовую выгоду от продажи и использования произведения, защищенного знаком охраны авторского права.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="182"/>
         <source>Corrector</source>
-        <translation type="unfinished"/>
+        <translation>Корректор рукописей</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="182"/>
         <source>Use for a person or organization who is a corrector of manuscripts, such as the scriptorium official who corrected the work of a scribe. For printed matter, use Proofreader.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, являющиеся корректором рукописей, например, начальник скриптория, исправляющий работу переписчика. Для обозначения корректора печатных материалов используется код pfr.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="183"/>
         <source>Correspondent</source>
-        <translation type="unfinished"/>
+        <translation>Корреспондент</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="183"/>
         <source>Use for a person or organization who was either the writer or recipient of a letter or other communication.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, являющиеся либо автором, либо получателем письма или другой корреспонденции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="184"/>
         <source>Costume designer</source>
-        <translation type="unfinished"/>
+        <translation>Художник по костюмам</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="184"/>
         <source>Use for a person or organization who designs or makes costumes, fixes hair, etc., for a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые создают и делают костюмы, укладывают волосы и т. д. для музыкальной или театральной постановки или концерта.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="185"/>
         <source>Court governed</source>
-        <translation type="unfinished"/>
+        <translation>Суд действует сообразно</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="185"/>
         <source>A court governed by court rules, regardless of their official nature (e.g., laws, administrative regulations.)</source>
-        <translation type="unfinished"/>
+        <translation>Суд руководствуется судебными правилами, независимо от их официального характера (например, законов, административных правил)</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="186"/>
         <source>Court reporter</source>
-        <translation type="unfinished"/>
+        <translation>Судебный репортёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="186"/>
         <source>A person, family, or organization contributing to a resource by preparing a court&apos;s opinions for publication.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, чей вклад заключается в подготовке решения суда для публикации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="187"/>
@@ -10179,12 +10220,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="190"/>
         <source>Use for a person or organization who principally exhibits dancing skills in a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, демонстрирующее преимущественно искусство танца в музыкальной или драматической постановке или концерте.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="191"/>
         <source>Data contributor</source>
-        <translation type="unfinished"/>
+        <translation>Поставщик данных</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="191"/>
@@ -10194,12 +10235,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="192"/>
         <source>Data manager</source>
-        <translation type="unfinished"/>
+        <translation>Менеджер данных</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="192"/>
         <source>Use for a person or organization responsible for managing databases or other data sources.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые представляют данные для включения в базу данных или другой набор данных.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="193"/>
@@ -10229,127 +10270,127 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="195"/>
         <source>Use for the party defending or denying allegations made in a suit and against whom relief or recovery is sought in the courts, usually in a legal action.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, которая защищается от предъявленного ей искового требования или отвергает это требование, и против которой направлены средства судебной защиты и взыскания, обычно, в судебном порядке.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="196"/>
         <source>Defendant-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, подавший апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="196"/>
         <source>Use for a defendant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal action.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, подающий апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="197"/>
         <source>Defendant-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, против которого подана апелляционная жалоба</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="197"/>
         <source>Use for a defendant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal action.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, против которого подана апелляция в суд высшей инстанции для пересмотра судебного решения по делу.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="198"/>
         <source>Degree grantor</source>
-        <translation type="unfinished"/>
+        <translation>Организация, утвердившая ученую степень</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="198"/>
         <source>Use for the organization granting a degree for which the thesis or dissertation described was presented.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения организации, утвердившей ученую степень, на соискание которой была представлена описываемая диссертация.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="199"/>
         <source>Delineator</source>
-        <translation type="unfinished"/>
+        <translation>Чертёжник</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="199"/>
         <source>Use for a person or organization executing technical drawings from others&apos; designs.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, выполняющие технические рисунки с других чертежей, эскизов и набросков.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="200"/>
         <source>Depicted</source>
-        <translation type="unfinished"/>
+        <translation>Предмет изображения</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="200"/>
         <source>Use for an entity depicted or portrayed in a work, particularly in a work of art.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения предмета или лица, изображенного в произведении, особенно, в произведении искусства.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="201"/>
         <source>Depositor</source>
-        <translation type="unfinished"/>
+        <translation>Депозитор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="201"/>
         <source>Use for a person or organization placing material in the physical custody of a library or repository without transferring the legal title.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, размещающие материалы на хранение в библиотеке или репозитарии без передачи юридических прав.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="202"/>
         <source>Designer</source>
-        <translation type="unfinished"/>
+        <translation>Оформитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="202"/>
         <source>Use for a person or organization responsible for the design if more specific codes (e.g., [bkd], [tyd]) are not desired.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственное за оформление, если более специальные коды ролей ([bkd], [tyd] и т.д.) не желательны.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="203"/>
         <source>Director</source>
-        <translation type="unfinished"/>
+        <translation>Режиссёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="203"/>
         <source>Use for a person or organization who is responsible for the general management of a work or who supervises the production of a performance for stage, screen, or sound recording.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственное за общую организацию работы или руководящее постановкой в театре, кино или звукозаписью.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="204"/>
         <source>Dissertant</source>
-        <translation type="unfinished"/>
+        <translation>Диссертант</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="204"/>
         <source>Use for a person who presents a thesis for a university or higher-level educational degree.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, представляющее научную работу для получения учёной степени или диплома о высшем образовании.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="205"/>
         <source>Distribution place</source>
-        <translation type="unfinished"/>
+        <translation>Место дистрибуции</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="205"/>
         <source>A place from which a resource, e.g., a serial, is distributed.</source>
-        <translation type="unfinished"/>
+        <translation>Место, из которого распространяется продукт, например, сериал.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="206"/>
         <source>Distributor</source>
-        <translation type="unfinished"/>
+        <translation>Дистрибьютор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="206"/>
         <source>Use for a person or organization that has exclusive or shared marketing rights for an item.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, обладающее исключительным или частичным правом на продажу документа.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="207"/>
         <source>Donor</source>
-        <translation type="unfinished"/>
+        <translation>Даритель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="207"/>
         <source>Use for a person or organization who is the donor of a book, manuscript, etc., to its present owner. Donors to previous owners are designated as Former owner [fmo] or Inscriber [ins].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, подарившие книгу, рукопись и т. д. её нынешнему владельцу. Дарители предыдущим владельцам обозначаются кодом [fmo] — Бывший владелец или [ins] — Автор дарственной надписи.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="208"/>
@@ -10359,17 +10400,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="208"/>
         <source>Use for a person or organization who prepares artistic or technical drawings. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, подготавливающие художественные или технические рисунки. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="209"/>
         <source>Dubious author</source>
-        <translation type="unfinished"/>
+        <translation>Сомнительный автор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="209"/>
         <source>Use for a person or organization to which authorship has been dubiously or incorrectly ascribed.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, приписывание авторства которому сомнительно или неверно.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="210"/>
@@ -10384,42 +10425,42 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="211"/>
         <source>Editor of compilation</source>
-        <translation type="unfinished"/>
+        <translation>Редактор сборника</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="211"/>
         <source>A person, family, or organization contributing to a collective or aggregate work by selecting and putting together works, or parts of works, by one or more creators. For compilations of data, information, etc., that result in new works, see compiler.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, вносящие вклад в коллективную или общую работу путём выбора и объединения произведений или частей произведений одного или нескольких создателей. Для компиляции данных, информации и т.д., которые приводят к новым произведениям, см. Составитель.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="212"/>
         <source>Editor of moving image work</source>
-        <translation type="unfinished"/>
+        <translation>Монтажёр видео</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="212"/>
         <source>A person, family, or organization responsible for assembling, arranging, and trimming film, video, or other moving image formats, including both visual and audio aspects.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, ответственные за сборку, организацию и обрезку фильмов, видео или других форматов движущихся изображений, включая визуальные и звуковые аспекты.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="213"/>
         <source>Electrician</source>
-        <translation type="unfinished"/>
+        <translation>Осветитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="213"/>
         <source>Use for a person responsible for setting up a lighting rig and focusing the lights for a production, and running the lighting at a performance.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за настройку осветительной установки, фокусировку света для представления и управление освещением.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="214"/>
         <source>Electrotyper</source>
-        <translation type="unfinished"/>
+        <translation>Изготовитель гальваностереотипов</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="214"/>
         <source>Use for a person or organization who creates a duplicate printing surface by pressure molding and electrodepositing of metal that is then backed up with lead for printing.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, создающие копию формы высокой печати методом гальванопластики.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="215"/>
@@ -10434,62 +10475,62 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="216"/>
         <source>Engraver</source>
-        <translation type="unfinished"/>
+        <translation>Гравёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="216"/>
         <source>Use for a person or organization who cuts letters, figures, etc. on a surface, such as a wooden or metal plate, for printing.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые вырезают буквы, фигуры и т. д. на деревянной или металлической поверхности для печати.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="217"/>
         <source>Etcher</source>
-        <translation type="unfinished"/>
+        <translation>Офортист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="217"/>
         <source>Use for a person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которое воспроизводит текст или изображение для печати, подвергая металл, стекло или другой материал окислению или коррозии при помощи какого-либо вещества.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="218"/>
         <source>Event place</source>
-        <translation type="unfinished"/>
+        <translation>Место проведения мероприятия</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="218"/>
         <source>A place where an event such as a conference or a concert took place.</source>
-        <translation type="unfinished"/>
+        <translation>Место, где состоялось такое мероприятие, как конференция или концерт.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="219"/>
         <source>Expert</source>
-        <translation type="unfinished"/>
+        <translation>Эксперт</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="219"/>
         <source>Use for a person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которому поручено описание и оценка вещей, особенно редких книг, произведений искусства и т.п. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="220"/>
         <source>Facsimilist</source>
-        <translation type="unfinished"/>
+        <translation>Факсимилист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="220"/>
         <source>Use for a person or organization that executed the facsimile.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, выполнившие факсимиле.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="221"/>
         <source>Field director</source>
-        <translation type="unfinished"/>
+        <translation>Руководитель полевых работ</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="221"/>
         <source>Use for a person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences).</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, управляющие или контролирующие работу по сбору необработанных данных или осуществляющего исследование окружающей среды (обычно применимо к естественным и общественным наукам).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="222"/>
@@ -10499,7 +10540,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="222"/>
         <source>A director responsible for the general management and supervision of a filmed performance.</source>
-        <translation type="unfinished"/>
+        <translation>Директор, ответственный за общее руководство и контроль качества съёмок.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="223"/>
@@ -10509,7 +10550,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="223"/>
         <source>A person, family, or organization involved in distributing a moving image resource to theatres or other distribution channels.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, осуществляющие прокат (распространение) фильма в кинотеатрах или других каналах распространения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="224"/>
@@ -10519,7 +10560,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="224"/>
         <source>Use for a person or organization who is an editor of a motion picture film. This term is used regardless of the medium upon which the motion picture is produced or manufactured (e.g., acetate film, video tape). </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, являющиеся режиссёром монтажа кинокартины независимо от типа её физического носителя (например, ацетатная пленка, магнитная лента с изображением и звуком). </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="225"/>
@@ -10529,37 +10570,37 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="225"/>
         <source>A producer responsible for most of the business aspects of a film.</source>
-        <translation type="unfinished"/>
+        <translation>Продюсер ответственный за создание кинофильма (включая деловые аспекты и управление процессом производства кинофильма) и за его коммерческий успех.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="226"/>
         <source>Filmmaker</source>
-        <translation type="unfinished"/>
+        <translation>Создатель кинофильма, кинорежиссёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="226"/>
         <source>A person, family or organization responsible for creating an independent or personal film. A filmmaker is individually responsible for the conception and execution of all aspects of the film.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, ответственные за создание независимого или личного фильма. Кинорежиссёр несёт индивидуальную ответственность за концепцию и исполнение всех аспектов фильма.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="227"/>
         <source>First party</source>
-        <translation type="unfinished"/>
+        <translation>Первичный правообладатель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="227"/>
         <source>Use for a person or organization who is identified as the only party or the party of the first part. In the case of transfer of right, this is the assignor, transferor, licensor, grantor, etc. Multiple parties can be named jointly as the first party.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, именуемые стороной, прописанной в договоре единственной или первой. В случае передачи прав таковым является лицо, совершающее передачу права, цедент, индоссант, лицензедатель, даритель и т.п. Несколько сторон могут быть совместно названы первичным правообладателем.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="228"/>
         <source>Forger</source>
-        <translation type="unfinished"/>
+        <translation>Изготовитель подделки</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="228"/>
         <source>Use for a person or organization who makes or imitates something of value or importance, especially with the intent to defraud. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, создающие или имитирующие какую-либо ценную или значимую вещь, в особенности с намерением совершения обмана. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="229"/>
@@ -10569,57 +10610,57 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="229"/>
         <source>Use for a person or organization who owned an item at any time in the past. Includes those to whom the material was once presented. A person or organization giving the item to the present owner is designated as Donor [dnr].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, когда-либо в прошлом являвшиеся собственником данного объекта, в т.ч. лицо или организация, которому он был подарен. Лицо или организацию, подарившие данный объект её нынешнему владельцу, следует обозначать кодом [dnr] — Даритель.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="230"/>
         <source>Funder</source>
-        <translation type="unfinished"/>
+        <translation>Инвестор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="230"/>
         <source>Use for a person or organization that furnished financial support for the production of the work.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, предоставившие финансовую поддержку при создании произведения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="231"/>
         <source>Geographic information specialist</source>
-        <translation type="unfinished"/>
+        <translation>Специалист по географической информационной системе</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="231"/>
         <source>Use for a person responsible for geographic information system (GIS) development and integration with global positioning system data.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за развитие географической информационной системы (GIS) и интеграцию её данных в данные системы глобального позиционирования.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="232"/>
         <source>Honoree</source>
-        <translation type="unfinished"/>
+        <translation>Объект чествования</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="232"/>
         <source>Use for a person or organization in memory or honor of whom a book, manuscript, etc. is donated. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, в честь которого или в память о котором подарена книга, рукопись и т.п. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="233"/>
         <source>Host</source>
-        <translation type="unfinished"/>
+        <translation>Гость</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="233"/>
         <source>Use for a person who is invited or regularly leads a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host).</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, приглашенное или регулярно ведущее теле- или радиопрограмму, на которую приглашаются другие участники, исполнители и т.д. (например, ток-шоу со знаменитостью).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="234"/>
         <source>Host institution</source>
-        <translation type="unfinished"/>
+        <translation>Принимающее учреждение</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="234"/>
         <source>An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource.</source>
-        <translation type="unfinished"/>
+        <translation>Организация, принимающая форум, выставку, конференцию, конкурс и т.д., которая организовала его проведение, но практически не несёт ответственности за содержание мероприятия.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="235"/>
@@ -10629,7 +10670,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="235"/>
         <source>Use for a person or organization responsible for the decoration of a work (especially manuscript material) with precious metals or color, usually with elaborate designs and motifs.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, украшающие произведение (в особенности, рукописный материал) драгоценными металлами или краской обычно в виде искусных рисунков и узоров.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="236"/>
@@ -10639,27 +10680,27 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="236"/>
         <source>Use for a person or organization who conceives, and perhaps also implements, a design or illustration, usually to accompany a written text.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые задумывают и, возможно, выполняют рисунок, узор, орнамент или иллюстрацию обычно для сопровождения текста.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="237"/>
         <source>Inscriber</source>
-        <translation type="unfinished"/>
+        <translation>Автор дарственной надписи</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="237"/>
         <source>Use for a person who has written a statement of dedication or gift.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, подписавшего дарственную надпись.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="238"/>
         <source>Instrumentalist</source>
-        <translation type="unfinished"/>
+        <translation>Инструменталист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="238"/>
         <source>Use for a person or organization who principally plays an instrument in a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, главным образом играющие на каком-либо инструменте в музыкальной или театральной постановке или концерте.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="239"/>
@@ -10679,7 +10720,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="240"/>
         <source>Use for a person or organization who acts as a reporter, pollster, or other information gathering agent in a consultation or meeting involving one or more individuals.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, действующие как репортёр, лицо, производящее опрос общественного мнения, либо как какой-либо другой агент, собирающий информацию во время совещания или мероприятия с одним или несколькими участниками.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="241"/>
@@ -10689,17 +10730,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="241"/>
         <source>Use for a person or organization who first produces a particular useful item, or develops a new process for obtaining a known item or result.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которому принадлежит приоритет изобретения какого-либо полезного устройства или процесса, предназначенного для получения известного объекта или результата.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="242"/>
         <source>Issuing body</source>
-        <translation type="unfinished"/>
+        <translation>Полномочный орган</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="242"/>
         <source>A person, family or organization issuing a work, such as an official organ of the body.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, выдающие произведение,  как например, официальный орган выдавший документ.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="243"/>
@@ -10709,147 +10750,147 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="243"/>
         <source>A person who hears and decides on legal matters in court.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое слушает и принимает решения по правовым вопросам в суде.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="244"/>
         <source>Jurisdiction governed</source>
-        <translation type="unfinished"/>
+        <translation>Применимая юрисдикция</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="244"/>
         <source>A jurisdiction governed by a law, regulation, etc., that was enacted by another jurisdiction.</source>
-        <translation type="unfinished"/>
+        <translation>Юрисдикция, регулируемая законом, регламентом и т.д., которая была принята другой юрисдикцией.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="245"/>
         <source>Laboratory</source>
-        <translation type="unfinished"/>
+        <translation>Лаборатория</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="245"/>
         <source>Use for an institution that provides scientific analyses of material samples.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения учреждения, осуществляющего научные исследования материальных образцов, проб.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="246"/>
         <source>Laboratory director</source>
-        <translation type="unfinished"/>
+        <translation>Начальник лаборатории</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="246"/>
         <source>Use for a person or organization that manages or supervises work done in a controlled setting or environment. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, руководящие или контролирующие работу, осуществляемую в подконтрольном окружении. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="247"/>
         <source>Landscape architect</source>
-        <translation type="unfinished"/>
+        <translation>Ландшафтный архитектор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="247"/>
         <source>Use for a person or organization whose work involves coordinating the arrangement of existing and proposed land features and structures.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, чья работа предполагает координирование упорядочивания существующего и предложенного ландшафта.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="248"/>
         <source>Lead</source>
-        <translation type="unfinished"/>
+        <translation>Руководитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="248"/>
         <source>Use to indicate that a person or organization takes primary responsibility for a particular activity or endeavor. Use with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, берущие на себя основную ответственность за осуществление определённой деятельности или усилия. Используется с другим термином или кодом роли, чтобы показать бóльшую важность этого лица или организации относительно определенной специфической роли. Если используется несколько обозначений разных ролей, код led применяется только в том случае, когда он относится ко всем этим кодам.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="249"/>
         <source>Lender</source>
-        <translation type="unfinished"/>
+        <translation>Дающий книгу в долг</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="249"/>
         <source>Use for a person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, позволяющие временное пользование книгой, рукописью и т. п., например, для фотокопирования или микрофильмирования.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="250"/>
         <source>Libelant</source>
-        <translation type="unfinished"/>
+        <translation>Истец в морском и церковном судопроизводстве</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="250"/>
         <source>Use for the party who files a libel in an ecclesiastical or admiralty case.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, подающая иск по церковному или морскому делу.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="251"/>
         <source>Libelant-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Истец в морском и церковном судопроизводстве, подавший апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="251"/>
         <source>Use for a libelant who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Истец в морском и церковном судопроизводстве, подающий апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="252"/>
         <source>Libelant-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Истец в морском и церковном судопроизводстве, против которого подана апелляционная жалоба</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="252"/>
         <source>Use for a libelant against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Истец в морском и церковном судопроизводстве, против которого в апелляционном процессе подана апелляционная жалоба в суд высшей инстанции для пересмотра судебного решения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="253"/>
         <source>Libelee</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик в морском и церковном судопроизводстве</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="253"/>
         <source>Use for a party against whom a libel has been filed in an ecclesiastical court or admiralty.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, против которой была подана жалоба в суд по делам, связанным с вопросами церкви или адмиралтейства.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="254"/>
         <source>Libelee-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик в морском и церковном судопроизводстве, подавший апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="254"/>
         <source>Use for a libelee who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, подающий апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции по делам, связанным с вопросами церкви или адмиралтейства.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="255"/>
         <source>Libelee-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик в морском и церковном судопроизводстве, против которого подана апелляционная жалоба в апелляционном процессе</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="255"/>
         <source>Use for a libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, против которого подана апелляция в суд высшей инстанции для пересмотра судебного решения по делу, связанному с вопросами церкви или адмиралтейства.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="256"/>
         <source>Librettist</source>
-        <translation type="unfinished"/>
+        <translation>Либреттист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="256"/>
         <source>Use for a person or organization who is a writer of the text of an opera, oratorio, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые являются автором текста оперы, оратории и т. п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="257"/>
         <source>Licensee</source>
-        <translation type="unfinished"/>
+        <translation>Лицензедержатель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="257"/>
         <source>Use for a person or organization who is an original recipient of the right to print or publish.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, являющиеся первоначальным получателем прав на печать или публикацию.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="258"/>
@@ -10859,7 +10900,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="258"/>
         <source>Use for person or organization who is a signer of the license, imprimatur, etc. </source>
-        <translation>Лицо или организация, подписавшие лицензию, разрешение на печатание книги и пр.</translation>
+        <translation>Лицо или организация, подписавшие лицензию, разрешение на печатание книги и пр. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="259"/>
@@ -10909,17 +10950,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="263"/>
         <source>Use for a person or organization that makes an artifactual work (an object made or modified by one or more persons). Examples of artifactual works include vases, cannons or pieces of furniture.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, создающие артефакт (объект, сделанный или модифицированный одним или несколькими лицами). Например, вазы, артиллерийские орудия, предметы мебели.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="264"/>
         <source>Marbler</source>
-        <translation type="unfinished"/>
+        <translation>Мраморщик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="264"/>
         <source>The entity responsible for marbling paper, cloth, leather, etc. used in construction of a resource.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за мраморность бумаги, ткани, кожи и т.д., использованных при создании произведения или продукции.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="265"/>
@@ -10939,17 +10980,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="266"/>
         <source>A person held to be a channel of communication between the earthly world and a different world.</source>
-        <translation type="unfinished"/>
+        <translation>Чувствительное физическое лицо, которое поддерживает канал связи между двумя мирами: материальным и духовным.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="267"/>
         <source>Metadata contact</source>
-        <translation type="unfinished"/>
+        <translation>Составитель метаданных</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="267"/>
         <source>Use for a person or organization primarily responsible for compiling and maintaining the original description of a metadata set (e.g., geospatial metadata set).</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые несут основную ответственность за составление и ведение исходного описания набора метаданных (например, набора геопространственных метаданных).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="268"/>
@@ -10964,12 +11005,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="269"/>
         <source>Minute taker</source>
-        <translation type="unfinished"/>
+        <translation>Секретарь, стенографист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="269"/>
         <source>A person, family, or organization responsible for recording the minutes of a meeting.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо ответственное за запись протокола встречи.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="270"/>
@@ -10984,12 +11025,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="271"/>
         <source>Monitor</source>
-        <translation type="unfinished"/>
+        <translation>Наблюдатель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="271"/>
         <source>Use for a person or organization that supervises compliance with the contract and is responsible for the report and controls its distribution. Sometimes referred to as the grantee, or controlling agency.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, контролирующего соблюдение условий договора и ответственного за подготовку отчёта и контроль за его распространением. Иногда упоминается как получатель гранта или контролирующее агентство.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="272"/>
@@ -10999,17 +11040,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="272"/>
         <source>Use for a person who transcribes or copies musical notation</source>
-        <translation>Лицо, записывающее или копирующее нотную запись.</translation>
+        <translation>Лицо, записывающее или копирующее нотную запись</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="273"/>
         <source>Musical director</source>
-        <translation type="unfinished"/>
+        <translation>Музыкальный директор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="273"/>
         <source>Use for a person responsible for basic music decisions about a production, including coordinating the work of the composer, the sound editor, and sound mixers, selecting musicians, and organizing and/or conducting sound for rehearsals and performances.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за основные решения по музыкальному обеспечению постановки, включая координирование работы композитора, звукового редактора, звукооператора, подбор музыкантов и организацию и/или звуковое сопровождение репетиций и представлений.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="274"/>
@@ -11019,7 +11060,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="274"/>
         <source>Use for a person or organization who performs music or contributes to the musical content of a work when it is not possible or desirable to identify the function more precisely.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, исполняющего музыку или имеющего отношение к музыкальному содержанию произведения. Используется в том случае, когда невозможно или нежелательно более точное определение роли.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="275"/>
@@ -11039,7 +11080,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="276"/>
         <source>A performer contributing to an expression of a work by appearing on screen in nonfiction moving image materials or introductions to fiction moving image materials to provide contextual or background information. Use when another term (e.g., Narrator, Host) is either not applicable or not desired.</source>
-        <translation type="unfinished"/>
+        <translation>Исполнитель, способствующий выражению произведения, появляясь на экране в документальных произведениях или вводных материалах к художественным произведениям для предоставления контекстуальной или фоновой информации. Используйте, когда другой термин (например, Рассказчик, Гость) либо не применим, либо нежелателен.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="277"/>
@@ -11049,7 +11090,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="277"/>
         <source>Use for a person or organization responsible for opposing a thesis or dissertation.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за оппонирование научной работе или диссертации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="278"/>
@@ -11064,22 +11105,22 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="279"/>
         <source>Originator</source>
-        <translation type="unfinished"/>
+        <translation>Инициатор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="279"/>
         <source>Use for a person or organization performing the work, i.e., the name of a person or organization associated with the intellectual content of the work. This category does not include the publisher or personal affiliation, or sponsor except where it is also the corporate author.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, выполняющие произведение, то есть имя человека или организации, связанных с интеллектуальным содержанием произведения. Данная категория не включает в себя издателя, соавтора или спонсора за исключением тех случаев, когда они также входят в состав коллективного автора.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="280"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Прочее</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="280"/>
         <source>Use for relator codes from other lists which have no equivalent in the MARC list or for terms which have not been assigned a code.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для кодов, не имеющих эквивалентов в формате MARC 21 из перечней, отличных от данного, либо для терминов, которым код не присвоен.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="281"/>
@@ -11094,22 +11135,22 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="282"/>
         <source>Panelist</source>
-        <translation type="unfinished"/>
+        <translation>Участник дискуссии</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="282"/>
         <source> performer contributing to a resource by participating in a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion.</source>
-        <translation type="unfinished"/>
+        <translation> исполнитель вносит свой вклад в произведение или продукт, участвуя в программе (часто трансляции), где обсуждаются темы, как правило, с участием экспертов в областях, связанных с обсуждением.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="283"/>
         <source>Papermaker</source>
-        <translation type="unfinished"/>
+        <translation>Изготовитель бумаги</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="283"/>
         <source>Use for a person or organization responsible for the production of paper, usually from wood, cloth, or other fibrous material.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за изготовление бумаги, обычно из древесины, ткани или другого волокнистого материала.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="284"/>
@@ -11129,17 +11170,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="285"/>
         <source>Use for a person or organization that was granted the patent referred to by the item. </source>
-        <translation>Лицо или организация, которым был предоставлен патент, упомянутый в этом пункте.</translation>
+        <translation>Лицо или организация, которым был предоставлен патент, упомянутый в этом пункте. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="286"/>
         <source>Patron</source>
-        <translation type="unfinished"/>
+        <translation>Покровитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="286"/>
         <source>Use for a person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за заказ произведения. Обычно покровитель использует свои средства или влияние, чтобы поддержать работу художников, писателей, и т.д. Эта категория включает тех, кто даёт заказ на оригинальные произведения и платит за них.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="287"/>
@@ -11154,12 +11195,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="288"/>
         <source>Permitting agency</source>
-        <translation type="unfinished"/>
+        <translation>Разрешающее ведомство</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="288"/>
         <source>Use for an authority (usually a government agency) that issues permits under which work is accomplished.</source>
-        <translation type="unfinished"/>
+        <translation>Ведомство (обычно государственное учреждение), которое выдает разрешение на осуществление работы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="289"/>
@@ -11174,212 +11215,212 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="290"/>
         <source>Plaintiff</source>
-        <translation type="unfinished"/>
+        <translation>Истец</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="290"/>
         <source>Use for the party who complains or sues in court in a personal action, usually in a legal proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, которая подает жалобу или возбуждает дело в суде в частном порядке, обычно, с целью судебного рассмотрении дела.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="291"/>
         <source>Plaintiff-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Истец, подавший апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="291"/>
         <source>Use for a plaintiff who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Истец, подающий апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции, обычно, с целью судебного рассмотрении дела.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="292"/>
         <source>Plaintiff-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Истец, против которого подана апелляционная жалоба</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="292"/>
         <source>Use for a plaintiff against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Истец, против которого в апелляционном процессе подана апелляция в суд высшей инстанции для пересмотра судебного решения по делу, обычно, с целью судебного рассмотрения дела.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="293"/>
         <source>Platemaker</source>
-        <translation type="unfinished"/>
+        <translation>Изготовитель печатных форм</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="293"/>
         <source>Use for a person or organization responsible for the production of plates, usually for the production of printed images and/or text.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за изготовление полиграфических печатных форм с целью печати изображений и/или текстов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="294"/>
         <source>Praeses</source>
-        <translation type="unfinished"/>
+        <translation>Президент</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="294"/>
         <source>A person who is the faculty moderator of an academic disputation, normally proposing a thesis and participating in the ensuing disputation.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, имеющее право председательствовать на академическом диспуте, обычно предлагающее тезисы и участвующее в последующем диспуте.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="295"/>
         <source>Presenter</source>
-        <translation type="unfinished"/>
+        <translation>Ведущий</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="295"/>
         <source>A person or organization mentioned in an &apos;X presents&apos; credit for moving image materials and who is associated with production, finance, or distribution in some way. A vanity credit; in early years, normally the head of a studio.</source>
-        <translation type="unfinished"/>
+        <translation>Человек или организация, упомянутые как «X представляет», которые практически не участвовали в создании материалов с движущимися изображениями и которые в некотором роде связаны с производством, финансами или распространением. Кредиты тщеславия; в первые годы, преимущественно для руководителей студий.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="296"/>
         <source>Printer</source>
-        <translation type="unfinished"/>
+        <translation>Печатник</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="296"/>
         <source>Use for a person or organization who prints texts, whether from type or plates.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые печатают тексты, независимо от типа или метода печати.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="297"/>
         <source>Printer of plates</source>
-        <translation type="unfinished"/>
+        <translation>Печатник с печатных форм</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="297"/>
         <source>Use for a person or organization who prints illustrations from plates. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо, выполняющее печать иллюстраций или элементов оформления с гравировальных досок. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="298"/>
         <source>Printmaker</source>
-        <translation type="unfinished"/>
+        <translation>Гравировщик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="298"/>
         <source>Use for a person or organization who makes a relief, intaglio, or planographic printing surface.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые создают формы высокой печати или глубокой печати.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="299"/>
         <source>Process contact</source>
-        <translation type="unfinished"/>
+        <translation>Организатор процесса</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="299"/>
         <source>Use for a person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые несут основную ответственность за выполнение или инициирование процесса, как например, при сборе наборов метаданных.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="300"/>
         <source>Producer</source>
-        <translation type="unfinished"/>
+        <translation>Продюсер</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="300"/>
         <source>Use for a person or organization responsible for the making of a motion picture, including business aspects, management of the productions, and the commercial success of the work.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, несущее главную ответственность за создание кинофильма, включая административно-финансовые вопросы, руководство производством и коммерческий успех фильма.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="301"/>
         <source>Production company</source>
-        <translation type="unfinished"/>
+        <translation>Продюсерская компания</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="301"/>
         <source>An organization that is responsible for financial, technical, and organizational management of a production for stage, screen, audio recording, television, webcast, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Организация, которая отвечает за финансовое, техническое и организационное управление производством для сцены, экрана, аудиозаписи, телевидения, веб-трансляции и т.д.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="302"/>
         <source>Production designer</source>
-        <translation type="unfinished"/>
+        <translation>Главный художник фильма</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="302"/>
         <source>A person or organization responsible for designing the overall visual appearance of a moving image production.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за разработку общего визуального оформления фильма.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="303"/>
         <source>Production manager</source>
-        <translation type="unfinished"/>
+        <translation>Руководитель производства</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="303"/>
         <source>Use for a person responsible for all technical and business matters in a production.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за решение всех технических и коммерческих вопросов постановки.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="304"/>
         <source>Production personnel</source>
-        <translation type="unfinished"/>
+        <translation>Персонал художественно-постановочной части</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="304"/>
         <source>Use for a person or organization associated with the production (props, lighting, special effects, etc.) of a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, связанные с постановкой (реквизитом, освещением, сценическими эффектами и т. п.) музыкального, драматического представления или концерта.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="305"/>
         <source>Production place</source>
-        <translation type="unfinished"/>
+        <translation>Место производства</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="305"/>
         <source>The place of production (e.g., inscription, fabrication, construction, etc.) of a resource in an unpublished form.</source>
-        <translation type="unfinished"/>
+        <translation>Место производства (например, написание, изготовление, строительство и т.д.) произведения или продукции в неопубликованном виде.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="306"/>
         <source>Programmer</source>
-        <translation type="unfinished"/>
+        <translation>Программист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="306"/>
         <source>Use for a person or organization responsible for the creation and/or maintenance of computer program design documents, source code, and machine-executable digital files and supporting documentation.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственное за создание и/или поддержку компьютерных программ, исходных кодов, машинно-исполнимых цифровых файлов и сопроводительной документации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="307"/>
         <source>Project director</source>
-        <translation type="unfinished"/>
+        <translation>Руководитель проекта</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="307"/>
         <source>Use for a person or organization with primary responsibility for all essential aspects of a project, or that manages a very large project that demands senior level responsibility, or that has overall responsibility for managing projects, or provides overall direction to a project manager.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за все существенные направления проекта, или осуществляющие руководство крупным проектом, или полностью несущие ответственность за реализацию проектов, или руководящие работой менеджеров проектов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="308"/>
         <source>Proofreader</source>
-        <translation type="unfinished"/>
+        <translation>Корректор печатного текста</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="308"/>
         <source>Use for a person who corrects printed matter. For manuscripts, use Corrector [crr].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, производящее корректуру печатного текста. Для рукописных материалов используется код [crr] — Корректор рукописей.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="309"/>
         <source>Provider</source>
-        <translation type="unfinished"/>
+        <translation>Провайдер</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="309"/>
         <source>A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl].)</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые производят, публикуют, изготавливают или распространяют произведения или продукцию, если конкретные коды не требуются (например, [mfr], [pbl].)</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="310"/>
         <source>Publication place </source>
-        <translation type="unfinished"/>
+        <translation>Место публикации </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="310"/>
         <source>The place where a resource is published.</source>
-        <translation type="unfinished"/>
+        <translation>Место публикации произведения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="311"/>
@@ -11389,243 +11430,243 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="311"/>
         <source>Use for a person or organization that makes printed matter, often text, but also printed music, artwork, etc. available to the public.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, организующие или финансирующие издательский процесс, изготавливающие широкодоступный печатный материал, чаще текст, но также и ноты, изоиздания и т.п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="312"/>
         <source>Publishing director</source>
-        <translation type="unfinished"/>
+        <translation>Ответственный редактор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="312"/>
         <source>Use for a person or organization who presides over the elaboration of a collective work to ensure its coherence or continuity. This includes editors-in-chief, literary editors, editors of series, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые контролируют ход коллективной работы и обеспечивает ее последовательность или непрерывность. Эта категория включает главных редакторов, литературных редакторов, редакторов серий и т.д.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="313"/>
         <source>Puppeteer</source>
-        <translation type="unfinished"/>
+        <translation>Кукловод</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="313"/>
         <source>Use for a person or organization who manipulates, controls, or directs puppets or marionettes in a musical or dramatic presentation or entertainment.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые манипулируют, управляют куклами или марионетками в музыкальном, драматическом представлении или концерте.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="314"/>
         <source>Radio director</source>
-        <translation type="unfinished"/>
+        <translation>Радио-директор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="314"/>
         <source>A director responsible for the general management and supervision of a radio program.</source>
-        <translation type="unfinished"/>
+        <translation>Директор, ответственный за общее руководство и контроль за радиопрограммой.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="315"/>
         <source>Radio producer</source>
-        <translation type="unfinished"/>
+        <translation>Радио-продюсер</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="315"/>
         <source>A producer responsible for most of the business aspects of a radio program.</source>
-        <translation type="unfinished"/>
+        <translation>Продюсер, ответственный за большинство бизнес-аспектов радиопрограмм.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="316"/>
         <source>Recipient</source>
-        <translation type="unfinished"/>
+        <translation>Получатель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="316"/>
         <source>Use for a person or organization to whom correspondence is addressed.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которому адресована корреспонденция.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="317"/>
         <location filename="../../Misc/MarcRelators.cpp" line="318"/>
         <source>Recording engineer</source>
-        <translation type="unfinished"/>
+        <translation>Инженер звукозаписи, видеозаписи</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="317"/>
         <source>Use for a person or organization who supervises the technical aspects of a sound or video recording session.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за технические аспекты сеанса звуко- или видеозаписи.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="318"/>
         <source>A person contributing to a resource by supervising the technical aspects of a sound or video recording session.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, вносящее свой вклад в ресурс, контролируя технические аспекты сеанса звукозаписи или видеозаписи.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="319"/>
         <source>Redactor</source>
-        <translation type="unfinished"/>
+        <translation>Редактор-составитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="319"/>
         <source>Use for a person or organization who writes or develops the framework for an item without being intellectually responsible for its content.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые разрабатывают структуру описываемой единицы, не неся при этом интеллектуальной ответственности за её содержание.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="320"/>
         <source>Renderer</source>
-        <translation type="unfinished"/>
+        <translation>Создатель эскизов</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="320"/>
         <source>Use for a person or organization who prepares drawings of architectural designs (i.e., renderings) in accurate, representational perspective to show what the project will look like when completed.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые с архитектурных чертежей делают эскизы (то есть, изображения) в точной перспективе с целью дать представление о том, как будет выглядеть реализованный проект.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="321"/>
         <source>Reporter</source>
-        <translation type="unfinished"/>
+        <translation>Репортёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="321"/>
         <source>Use for a person or organization who writes or presents reports of news or current events on air or in print.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые пишут или представляют сообщение о новостях или текущих событиях в эфире или в печати.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="322"/>
         <source>Repository</source>
-        <translation type="unfinished"/>
+        <translation>Репозитарий</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="322"/>
         <source>Use for an agency that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения ведомства, которое принимает данные или объекты материальной культуры и предоставляет услуги по длительному хранению и общедоступному использованию этих данных или объектов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="323"/>
         <source>Research team head</source>
-        <translation type="unfinished"/>
+        <translation>Руководитель исследовательской группы</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="323"/>
         <source>Use for a person who directed or managed a research project.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое руководит исследовательским проектом.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="324"/>
         <source>Research team member</source>
-        <translation type="unfinished"/>
+        <translation>Участник исследовательской группы</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="324"/>
         <source>Use for a person who participated in a research project but whose role did not involve direction or management of it.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое является участником исследований, и чья роль не предусматривает руководства или управления проектом.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="325"/>
         <source>Researcher</source>
-        <translation type="unfinished"/>
+        <translation>Исследователь</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="325"/>
         <source>Use for a person or organization responsible for performing research. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, ответственные за проведение научных исследований. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="326"/>
         <source>Respondent</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик по делу, рассматриваемому на основе права справедливости</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="326"/>
         <source>Use for the party who makes an answer to the courts pursuant to an application for redress, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Сторона, которая предстает ответчиком в суде в соответствии с требованием возмещения, обычно в делах, рассматриваемых на основе права «справедливости» (особенно в бракоразводных процессах).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="327"/>
         <source>Respondent-appellant</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик по делу, рассмотренному на основе права справедливости, подавший апелляционную жалобу</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="327"/>
         <source>Use for a respondent who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, подающий апелляционную жалобу в суд высшей инстанции для пересмотра решения суда низшей инстанции, обычно в делах, рассматриваемых на основе права «справедливости» (особенно в бракоразводных процессах).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="328"/>
         <source>Respondent-appellee</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик по делу, рассмотренному на основе права справедливости, против которого подана апелляционная жалоба в апелляционном процессе</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="328"/>
         <source>Use for a respondent against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding.</source>
-        <translation type="unfinished"/>
+        <translation>Ответчик, против которого подана апелляционная жалоба в суд высшей инстанции для пересмотра судебного решения, обычно в делах, рассматриваемых на основе права «справедливости» (особенно в бракоразводных процессах).</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="329"/>
         <source>Responsible party</source>
-        <translation type="unfinished"/>
+        <translation>Юридически ответственная сторона</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="329"/>
         <source>Use for a person or organization legally responsible for the content of the published material.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, несущие юридическую ответственность за содержание публикации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="330"/>
         <source>Restager</source>
-        <translation type="unfinished"/>
+        <translation>Постановщик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="330"/>
         <source>Use for a person or organization, other than the original choreographer or director, responsible for restaging a choreographic or dramatic work and who contributes minimal new content.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, не являющиеся первоначальным хореографом или режиссером, но ответственного за новую постановку хореографии или драматического произведения, привнося при этом минимальные изменения в содержание произведения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="331"/>
         <source>Restorationist</source>
-        <translation type="unfinished"/>
+        <translation>Реставратор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="331"/>
         <source>A person, family, or organization responsible for the set of technical, editorial, and intellectual procedures aimed at compensating for the degradation of an item by bringing it back to a state as close as possible to its original condition.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, ответственные за комплекс технических, редакционных и интеллектуальных процедур, направленных на компенсацию деградации предмета путём возвращения его в состояние, максимально близкое к его первоначальному состоянию.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="332"/>
         <source>Reviewer</source>
-        <translation type="unfinished"/>
+        <translation>Рецензент</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="332"/>
         <source>Use for a person or organization responsible for the review of a book, motion picture, performance, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, являющиеся автором рецензии на книгу, кинокартину, постановку и т.п.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="333"/>
         <source>Rubricator</source>
-        <translation type="unfinished"/>
+        <translation>Рубрикатор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="333"/>
         <source>Use for a person or organization responsible for parts of a work, often headings or opening parts of a manuscript, that appear in a distinctive color, usually red.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за части произведения, обычно заголовки и красные строки в рукописях, которые оформлялись цветом, отличным от основного, обычно красным.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="334"/>
         <source>Scenarist</source>
-        <translation type="unfinished"/>
+        <translation>Сценарист</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="334"/>
         <source>Use for a person or organization who is the author of a motion picture screenplay.</source>
-        <translation type="unfinished"/>
+        <translation>Автор сценария.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="335"/>
         <source>Scientific advisor</source>
-        <translation type="unfinished"/>
+        <translation>Научный консультант</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="335"/>
         <source>Use for a person or organization who brings scientific, pedagogical, or historical competence to the conception and realization on a work, particularly in the case of audio-visual items.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое использует свою научную, педагогическую или историческую компетенцию при разработке концепции и реализации произведения, в частности для аудиовизуальных материалов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="336"/>
@@ -11635,7 +11676,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="336"/>
         <source>Use for a person who is an amanuensis and for a writer of manuscripts proper. For a person who makes pen-facsimiles, use Facsimilist [fac].</source>
-        <translation type="unfinished"/>
+        <translation>Личный секретарь, пишущего под диктовку, и собственно писца рукописей. Для лиц, изготавливающих факсимильные копии текстов от руки, используется код [fac] — Факсимилист.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="337"/>
@@ -11650,12 +11691,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="338"/>
         <source>Second party</source>
-        <translation type="unfinished"/>
+        <translation>Сторона-правопреемник</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="338"/>
         <source>Use for a person or organization who is identified as the party of the second part. In the case of transfer of right, this is the assignee, transferee, licensee, grantee, etc. Multiple parties can be named jointly as the second party.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, именуемые в юридических документах «другой стороной». В случае передачи прав таковым является правопреемник, цессионарий, индоссат, лицензиат, получающий дотацию и т.п. Несколько сторон могут быть совместно названы стороной-правопреемником.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="339"/>
@@ -11665,7 +11706,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="339"/>
         <source>Use for a person or organization who is a recorder, redactor, or other person responsible for expressing the views of a organization.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, выступающее в роли секретаря, редактора или иного лица, ответственного за выражение точки зрения организации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="340"/>
@@ -11680,32 +11721,32 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="341"/>
         <source>Set designer</source>
-        <translation type="unfinished"/>
+        <translation>Художник-декоратор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="341"/>
         <source>Use for a person or organization who translates the rough sketches of the art director into actual architectural structures for a theatrical presentation, entertainment, motion picture, etc. Set designers draw the detailed guides and specifications for building the set.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые переводят авторский замысел художника-постановщика с плоских эскизов на объёмные декорации для театрального представления, концерта, кинофильма, и т.д. Художники-декораторы делают детальные инструкции и спецификации для сооружения декораций.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="342"/>
         <source>Setting</source>
-        <translation type="unfinished"/>
+        <translation>Сеттинг</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="342"/>
         <source>An entity in which the activity or plot of a work takes place, e.g. a geographic place, a time period, a building, an event.</source>
-        <translation type="unfinished"/>
+        <translation>Среда, в которой происходит действие или сюжет произведения, например географическое место, период времени, здание, условия и обстоятельства действия.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="343"/>
         <source>Signer</source>
-        <translation type="unfinished"/>
+        <translation>Автор подписи</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="343"/>
         <source>Use for a person whose signature appears without a presentation or other statement indicative of provenance. When there is a presentation statement, use Inscriber [ins].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, являющееся автором подписи без её пояснения или иного указания на происхождение этой подписи. Если речь идет о дарственной надписи/подписи, следует использовать код [ins] — Автор дарственной надписи.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="344"/>
@@ -11715,7 +11756,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="344"/>
         <source>Use for a person or organization who uses his/her/their voice with or without instrumental accompaniment to produce music. A performance may or may not include actual words.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое использует свой голос с музыкальным сопровождением или без него для исполнения музыкального произведения. Исполнение певца может включать слова или не включать их.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="345"/>
@@ -11730,12 +11771,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="346"/>
         <source>Speaker</source>
-        <translation type="unfinished"/>
+        <translation>Диктор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="346"/>
         <source>Use for a person who participates in a program (often broadcast) and makes a formalized contribution or presentation generally prepared in advance.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, участвующее в теле- или радиопрограмме, чьё выступление строго формализовано и подготовлено, как правило, заранее.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="347"/>
@@ -11755,67 +11796,67 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="348"/>
         <source>A person or organization contributing to a stage resource through the overall management and supervision of a performance.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, участвующие в сценической постановке посредством общего управления и контроля исполнения.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="349"/>
         <source>Stage manager</source>
-        <translation type="unfinished"/>
+        <translation>Помощник режиссера</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="349"/>
         <source>Use for a person who is in charge of everything that occurs on a performance stage, and who acts as chief of all crews and assistant to a director during rehearsals.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, ответственное за всё происходящее на сцене, действующего в качестве руководителя всех групп и помогающего директору во время репетиций.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="350"/>
         <source>Standards body</source>
-        <translation type="unfinished"/>
+        <translation>Орган по стандартизации</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="350"/>
         <source>Use for an organization responsible for the development or enforcement of a standard.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для организации, ответственной за разработку или внедрение стандарта.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="351"/>
         <source>Stereotyper</source>
-        <translation type="unfinished"/>
+        <translation>Изготовитель стереотипов</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="351"/>
         <source>Use for a person or organization who creates a new plate for printing by molding or copying another printing surface.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, изготовляющие новую монолитную печатную форму посредством отливания или копирования другой печатной формы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="352"/>
         <source>Storyteller</source>
-        <translation type="unfinished"/>
+        <translation>Рассказчик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="352"/>
         <source>Use for a person relaying a story with creative and/or theatrical interpretation.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения лица, передающего историю, предание, сказку в творческой и/или театральной интерпретации.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="353"/>
         <source>Supporting host</source>
-        <translation type="unfinished"/>
+        <translation>Принимающая сторона</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="353"/>
         <source>Use for a person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые поддерживают (предоставляя удобства, штат, другие ресурсы) проект, программу, конференцию, мероприятие, объекты данных, материальные объекты культуры. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="354"/>
         <source>Surveyor</source>
-        <translation type="unfinished"/>
+        <translation>Землемер</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="354"/>
         <source>Use for a person or organization who does measurements of tracts of land, etc. to determine location, forms, and boundaries.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые производят замеры земельных участков и т.п. для определения местоположения, размеров и границ.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="355"/>
@@ -11825,57 +11866,57 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="355"/>
         <source>Use for a person who, in the context of a resource, gives instruction in an intellectual subject or demonstrates while teaching physical skills. </source>
-        <translation>Лицо, которое в контексте ресурса даёт объяснения по интеллектуальному предмету или демонстрирует техники при обучении физическим навыкам.</translation>
+        <translation>Лицо, которое в контексте ресурса даёт объяснения по интеллектуальному предмету или демонстрирует техники при обучении физическим навыкам. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="356"/>
         <source>Technical director</source>
-        <translation type="unfinished"/>
+        <translation>Технический директор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="356"/>
         <source>Use for a person who is ultimately in charge of scenery, props, lights and sound for a production.</source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения лица, которое в конечном счете отвечает за декорации, реквизит, свет и звук.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="357"/>
         <source>Television director</source>
-        <translation type="unfinished"/>
+        <translation>Телережиссёр</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="357"/>
         <source>A director responsible for the general management and supervision of a television program.</source>
-        <translation type="unfinished"/>
+        <translation>Директор, ответственный за общее руководство и контроль за телевизионной программой.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="358"/>
         <source>Television producer</source>
-        <translation type="unfinished"/>
+        <translation>Телепродюсер</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="358"/>
         <source>A producer responsible for most of the business aspects of a television program.</source>
-        <translation type="unfinished"/>
+        <translation>Продюсер, ответственный за большинство бизнес-аспектов телевизионных программ.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="359"/>
         <source>Thesis advisor</source>
-        <translation type="unfinished"/>
+        <translation>Научный руководитель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="359"/>
         <source>Use for a person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation. </source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения лица, под руководством которого соискатель ученой степени пишет и представляет научную работу, доклад или текст диссертации. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="360"/>
         <source>Transcriber</source>
-        <translation type="unfinished"/>
+        <translation>Переписчик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="360"/>
         <source>Use for a person who prepares a handwritten or typewritten copy from original material, including from dictated or orally recorded material. For makers of pen-facsimiles, use Facsimilist [fac].</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, которое делает копию с оригинального материала от руки или на печатной машинке, в том числе с материала, записанного под диктовку или с устной записи. Для обозначения лиц изготавливающих факсимиле от руки используется код [fac] —  Факсимилист.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="361"/>
@@ -11885,117 +11926,117 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="361"/>
         <source>Use for a person or organization who renders a text from one language into another, or from an older form of a language into the modern form.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, осуществляющее перевод текста с одного языка на другой или с устаревшей формы языка на современную, более или менее точно следуя оригиналу.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="362"/>
         <source>Type designer</source>
-        <translation type="unfinished"/>
+        <translation>Разработчик шрифта</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="362"/>
         <source>Use for a person or organization who designed the type face used in a particular item. </source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которые разработали шрифт, используемый в конкретном элементе. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="363"/>
         <source>Typographer</source>
-        <translation type="unfinished"/>
+        <translation>Типограф, технический редактор</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="363"/>
         <source>Use for a person or organization primarily responsible for choice and arrangement of type used in an item. If the typographer is also responsible for other aspects of the graphic design of a book (e.g., Book designer [bkd]), codes for both functions may be needed.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, несущее основную ответственность за подбор и использование шрифтов в данной книге. Если это же лицо отвечает и за другие аспекты графического оформления книги (например, Оформитель книги [bkd]), то возможно одновременное использование обоих кодов.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="364"/>
         <source>University place</source>
-        <translation type="unfinished"/>
+        <translation>Университет, кампус</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="364"/>
         <source>A place where a university that is associated with a resource is located, for example, a university where an academic dissertation or thesis was presented.</source>
-        <translation type="unfinished"/>
+        <translation>Место, где расположен университет, связанный с ресурсом, например, университет, в котором была представлена научная диссертация или научные тезисы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="365"/>
         <source>Videographer</source>
-        <translation type="unfinished"/>
+        <translation>Оператор-видеопостановщик</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="365"/>
         <source>Use for a person or organization in charge of a video production, e.g. the video recording of a stage production as opposed to a commercial motion picture. The videographer may be the camera operator or may supervise one or more camera operators. Do not confuse with cinematographer.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, отвечающие за производство видеоматериалов, например, видеозапись сценической постановки, в отличие от коммерческого кинофильма. Может быть оператором или руководителем одного или нескольких операторов. Не путать с кинооператором-постановщиком.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="366"/>
         <source>Voice actor</source>
-        <translation type="unfinished"/>
+        <translation>Актёр озвучивания</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="366"/>
         <source>An actor contributing to a resource by providing the voice for characters in radio and audio productions and for animated characters in moving image works, as well as by providing voice overs in radio and television commercials, dubbed resources, etc.</source>
-        <translation type="unfinished"/>
+        <translation>Актёр, участвующий в создании произведения, предоставляя голос для персонажей в радио- и аудиопродукции,  для анимированных персонажей в мультипликационных фильмах, а также предоставляя голос за кадром в радио- и телевизионной рекламе, дублированных ресурсах и т.д.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="367"/>
         <source>Witness</source>
-        <translation type="unfinished"/>
+        <translation>Свидетель</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="367"/>
         <source>Use for a person who verifies the truthfulness of an event or action. </source>
-        <translation type="unfinished"/>
+        <translation>Используется для обозначения лица, которое подтверждает правильность происшедшего события или поступка. </translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="368"/>
         <source>Wood-engraver</source>
-        <translation type="unfinished"/>
+        <translation>Гравёр по дереву</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="368"/>
         <source>Use for a person or organization who makes prints by cutting the image in relief on the end-grain of a wood block.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которое (-ая) создает печатные формы, вырезая рельефные изображения на поперечном распиле деревянного блока.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="369"/>
         <source>Woodcutter</source>
-        <translation type="unfinished"/>
+        <translation>Резчик по дереву</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="369"/>
         <source>Use for a person or organization who makes prints by cutting the image in relief on the plank side of a wood block.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, которое (-ая) создает печатные формы, вырезая рельефные изображения на продольном распиле деревянного блока.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="370"/>
         <source>Writer of accompanying material</source>
-        <translation type="unfinished"/>
+        <translation>Автор текста сопроводительного материала</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="370"/>
         <source>Use for a person or organization who writes significant material which accompanies a sound recording or other audiovisual material.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация, написавшие значительный материал, сопровождающий звукозапись или другой аудиовизуальный материал.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="371"/>
         <source>Writer of added commentary</source>
-        <translation type="unfinished"/>
+        <translation>Автор добавленного комментария</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="371"/>
         <source>A person, family, or organization contributing to an expression of a work by providing an interpretation or critical explanation of the original work.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, способствующая выражению произведения путём предоставления комментария, интерпретации или критического объяснения оригинальной работы.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="372"/>
         <source>Writer of added lyrics</source>
-        <translation type="unfinished"/>
+        <translation>Автор стихов к песне</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="372"/>
         <source>A writer of words added to an expression of a musical work. For lyric writing in collaboration with a composer to form an original work, see lyricist.</source>
-        <translation type="unfinished"/>
+        <translation>Автор слов, добавленных к выражению музыкального произведения. Поэт в сотрудничестве с композитором, формируют оригинальное произведение, см. Лирик.</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="373"/>
@@ -12005,7 +12046,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="373"/>
         <source>A person, family, or organization contributing to a non-textual resource by providing text for the non-textual work (e.g., writing captions for photographs, descriptions of maps.)</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, которые вносят свой вклад в нетекстовое произведение, предоставляя текст для нетекстовой продукции (например, написание подписей к фотографиям, описание карт)</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="374"/>
@@ -12030,12 +12071,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="376"/>
         <source>Writer of supplementary textual content</source>
-        <translation type="unfinished"/>
+        <translation>Автор дополнительного текстового содержания</translation>
     </message>
     <message>
         <location filename="../../Misc/MarcRelators.cpp" line="376"/>
         <source>A person, family, or organization contributing to a resource by providing supplementary textual content (e.g., an introduction, a preface) to the original work.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо, коллектив или организация, которые вносят свой вклад в произведение, создавая дополнительный текстовый контент (например, введение, предисловие) к оригинальному произведению.</translation>
     </message>
 </context>
 <context>
@@ -12043,7 +12084,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Form_Files/MetaEditor.ui" line="20"/>
         <source>MetaData Editor</source>
-        <translation>Редактор метаданных</translation>
+        <translation>Редактор МетаДанных</translation>
     </message>
     <message>
         <location filename="../../Form_Files/MetaEditor.ui" line="52"/>
@@ -12099,7 +12140,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Form_Files/MetaEditor.ui" line="172"/>
         <source>Use OK to commit your metdata changes to the epub, otherwise use Cancel.</source>
-        <translation>Нажмите OK, чтобы сохранить изменения метаданных в EPUB, или Отмена чтобы убрать их.</translation>
+        <translation>Нажмите OK, чтобы зафиксировать изменения метаданных в EPUB, в противном случае используйте Отмена.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="52"/>
@@ -12190,7 +12231,7 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="543"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="648"/>
         <source>An arbitrary phrase or keyword describing the subject in question. Use multiple &apos;subject&apos; elements if needed.</source>
-        <translation type="unfinished"/>
+        <translation>Произвольная фраза или ключевое слово, описывающее рассматриваемый предмет. При необходимости используйте несколько элементов &quot;тема&quot;.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="544"/>
@@ -12214,7 +12255,7 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="545"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="650"/>
         <source>An entity responsible for making the publication available.</source>
-        <translation type="unfinished"/>
+        <translation>Организация, ответственная за выпуск, издание публикации.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="546"/>
@@ -12267,7 +12308,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="550"/>
         <source>Used to indicate that the given EPUB Publication is of a specialized type..</source>
-        <translation>Указывает, что данная EPUB-публикация специализированного типа...</translation>
+        <translation>Указывает, что данная EPUB-публикация специализированного типа..</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="551"/>
@@ -12307,25 +12348,25 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="554"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="658"/>
         <source>Relation</source>
-        <translation type="unfinished"/>
+        <translation>Зависимость</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="554"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="658"/>
         <source>A reference to a related resource. The recommended best practice is to identify the referenced resource by means of a string or number conforming to a formal identification system.</source>
-        <translation type="unfinished"/>
+        <translation>Ссылка на связанный ресурс. Рекомендуемая наилучшая практика заключается в идентификации указанного ресурса с помощью строки или номера, соответствующего формальной системе идентификации.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="555"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="659"/>
         <source>Coverage</source>
-        <translation type="unfinished"/>
+        <translation>Охват</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="555"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="659"/>
         <source>The extent or scope of the content of the publication&apos;s content.</source>
-        <translation type="unfinished"/>
+        <translation>Степень или объём содержания контента публикации.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="556"/>
@@ -12337,7 +12378,7 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="556"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="660"/>
         <source>Information about rights held in and over the publication. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. If the Rights element is absent, no assumptions may be made about any rights held in or over the publication.</source>
-        <translation type="unfinished"/>
+        <translation>Информация о правах, имеющихся в публикации и за ее пределами. Информация о правах часто включает права интеллектуальной собственности (ПИС), авторские права и различные права собственности. Если элемент «Права» отсутствует, нельзя делать какие-либо предположения относительно каких-либо прав, имеющихся в публикации или в отношении этой публикации.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="557"/>
@@ -12348,7 +12389,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="557"/>
         <source>Represents the name of a person, organization, etc. responsible for the creation of the content of an EPUB Publication. The role property can be attached to the element to indicate the function the creator played in the creation of the content.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация и т.д., ответственные за создание контента публикации EPUB. Свойство role может быть присоединено к элементу для указания функции, которую выполнил автор при создании контента.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="558"/>
@@ -12359,7 +12400,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="558"/>
         <source>Represents the name of a person, organization, etc. that played a secondary role in the creation of the content of an EPUB Publication. The role property can be attached to the element to indicate the function the creator played in the creation of the content.</source>
-        <translation type="unfinished"/>
+        <translation>Лицо или организация и т.д., которые сыграли второстепенную роль в создании контента публикации EPUB. Свойство role может быть присоединено к элементу для указания функции, которую выполнил соавтор при создании контента.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="559"/>
@@ -12369,7 +12410,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="559"/>
         <source>Identifies the name of a collection to which the EPUB Publication belongs. An EPUB Publication may belong to one or more collections.</source>
-        <translation type="unfinished"/>
+        <translation>Определяет имя сборника, к которому принадлежит публикация EPUB. Публикация EPUB может принадлежать одному или нескольким сборникам.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="560"/>
@@ -12380,7 +12421,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="560"/>
         <source>A title of the publication.  A publication may have only one main title but may have numerous other title types.  These include main, subtitle, short, collection, edition, and expanded title types.</source>
-        <translation type="unfinished"/>
+        <translation>Название издания. Публикация может иметь только одно основное название, но может иметь множество других типов названий. К ним относятся основные, субтитры, короткие, сборники, издания и расширенные типы заголовков.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="561"/>
@@ -12437,7 +12478,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="566"/>
         <source>An empty metadata element you can modify.</source>
-        <translation type="unfinished"/>
+        <translation>Пустой элемент метаданных, который можно изменить.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="593"/>
@@ -12449,7 +12490,7 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="593"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="696"/>
         <source>Optional, typically short, unique identifier string used as an attribute in the Package (opf) document.</source>
-        <translation type="unfinished"/>
+        <translation>Необязательная, обычно короткая строка уникального идентификатора, используемая в качестве атрибута в документе Package (opf).</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="594"/>
@@ -12460,7 +12501,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="594"/>
         <source>Optional, language specifying attribute.  Uses same codes as dc:language. Not for use with dc:langauge, dc:date, or dc:identifier metadata elements.</source>
-        <translation type="unfinished"/>
+        <translation>Необязательный атрибут с указанием языка. Использует те же коды, что и dc:language. Не для использования с элементами метаданных dc:langauge, dc:date или dc:identifier.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="595"/>
@@ -12520,7 +12561,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="600"/>
         <source>Indicates that the associated title is the title of a collection that includes this publication belongs to, if one exists.</source>
-        <translation type="unfinished"/>
+        <translation>Указывает, что связанный заголовок является заголовком коллекции, к которой относится эта публикация, если она существует.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="601"/>
@@ -12530,7 +12571,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="601"/>
         <source>Indicates that the associated title is an edition title for this publications if one exists.</source>
-        <translation type="unfinished"/>
+        <translation>Указывает, что связанный заголовок является названием издания для этих публикаций, если оно существует.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="602"/>
@@ -12540,7 +12581,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="602"/>
         <source>Indicates that the associated title is an expanded title for this publication if one exists.</source>
-        <translation type="unfinished"/>
+        <translation>Указывает, что связанный заголовок является расширенным заголовком для этой публикации, если она существует.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="603"/>
@@ -12550,7 +12591,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="603"/>
         <source>Provides an alternate expression of the associated property value in a language and script identified by an alternate-language attribute.</source>
-        <translation type="unfinished"/>
+        <translation>Предоставляет альтернативное выражение связанного значения свойства в языке и скрипте, определяемом атрибутом альтернативного языка.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="604"/>
@@ -12570,7 +12611,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="605"/>
         <source>Property used with belongs-to-collection. Indicates the form or nature of a collection. The value &apos;set&apos; should be used for a finite collection of works that together constitute a single intellectual unit; typically issued together and able to be sold as a unit..</source>
-        <translation type="unfinished"/>
+        <translation>Свойство, используемое с &quot;belongs-to-collection&quot;. Указывает форму или характер коллекции. Значение &quot;set&quot; должно использоваться для конечного набора произведений, которые вместе составляют единую интеллектуальную единицу; как правило, выпускаются вместе и могут быть проданы как единое целое.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="606"/>
@@ -12580,39 +12621,39 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="606"/>
         <source>Property used with belongs-to-collection. Indicates the form or nature of a collection. The value &apos;series&apos;&apos; should be used for a sequence of related works that are formally identified as a group; typically open-ended with works issued individually over time.</source>
-        <translation type="unfinished"/>
+        <translation>Свойство, используемое с &quot;belongs-to-collection&quot;. Указывает форму или характер коллекции.  Значение &quot;series&quot; должно использоваться для последовательности связанных произведений, которые формально идентифицируются как группа; как правило, бессрочные, с произведениями изданными в индивидуальном порядке в течение определённого времени.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="607"/>
         <source>Display Sequence</source>
-        <translation type="unfinished"/>
+        <translation>Последовательность отображения</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="607"/>
         <source>Indicates the numeric position in which to display the current property relative to identical metadata properties (e.g., to indicate the order in which to render multiple titles or multiple authors).</source>
-        <translation type="unfinished"/>
+        <translation>Указывает числовую позицию, в которой отображается текущее свойство относительно идентичных свойств метаданных (например, для указания порядка отображения нескольких заголовков или нескольких авторов).</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="608"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="698"/>
         <source>File as</source>
-        <translation type="unfinished"/>
+        <translation>Файл как</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="608"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="698"/>
         <source>Provides the normalized form of the associated property for sorting. Typically used with author, creator, and contributor names.</source>
-        <translation type="unfinished"/>
+        <translation>Предоставляет нормализованную форму связанного свойства для сортировки. Обычно используется с именами авторов, создателей и участников.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="609"/>
         <source>Group Position</source>
-        <translation type="unfinished"/>
+        <translation>Позиция в группе</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="609"/>
         <source>Indicates the numeric position in which the EPUB Publication is ordered relative to other works belonging to the same group (whether all EPUB Publications or not).</source>
-        <translation type="unfinished"/>
+        <translation>Указывает числовую позицию, в которой Публикация EPUB упорядочена относительно других произведений, принадлежащих к той же группе (независимо от того, все публикации EPUB или нет).</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="610"/>
@@ -12622,17 +12663,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="610"/>
         <source>Indicates the form or nature of an identifier. When the identifier-type value is drawn from a code list or other formal enumeration, the scheme attribute should be used to identify its source.</source>
-        <translation type="unfinished"/>
+        <translation>Указывает форму или характер идентификатора. Когда значение типа идентификатора берётся из списка кодов или другого формального перечисления, атрибут схемы должен использоваться для идентификации его источника.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="611"/>
         <source>Meta Authority</source>
-        <translation type="unfinished"/>
+        <translation>Метатег Authority</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="611"/>
         <source>Identifies the party or authority responsible for an instance of package metadata.</source>
-        <translation type="unfinished"/>
+        <translation>Определяет сторону или орган, ответственный за экземпляр метаданных пакета.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="612"/>
@@ -12644,7 +12685,7 @@ Do you want to automatically mend the files before saving?</source>
         <location filename="../../Dialogs/MetaEditor.cpp" line="612"/>
         <location filename="../../Dialogs/MetaEditor.cpp" line="699"/>
         <source>Describes the nature of work performed by a creator or contributor (e.g., that the person is the author or editor of a work).  Typically used with the marc:relators scheme for a controlled vocabulary.</source>
-        <translation type="unfinished"/>
+        <translation>Описывает характер работы, выполняемой создателем или участником (например, что лицо является автором или редактором работы). Обычно используется со схемой mark:relators для контролируемого словаря.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="613"/>
@@ -12655,7 +12696,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="613"/>
         <source>This attribute is typically added to dc:identifier, dc:source: dc:creator, or dc:contributor to indicate the controlled vocabulary system employed. (e.g. marc:relators to specify valid values for the role property.</source>
-        <translation type="unfinished"/>
+        <translation>Этот атрибут обычно добавляется к dc:identifier, dc:source, dc:creator или dc:contributor для указания используемой управляемой словарной системы. (например, marc:relators, чтобы указать допустимые значения для свойства роли).</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="614"/>
@@ -12665,7 +12706,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="614"/>
         <source>Indicates a unique aspect of an adapted source resource that has been retained in the given Rendition of the EPUB Publication. This specification defines the pagination value to indicate that the referenced source element is the source of the pagebreak properties defined in the content. This value should be set whenever pagination is included and the print source is known. Valid values: pagination.</source>
-        <translation type="unfinished"/>
+        <translation>Указывает на уникальный аспект адаптированного исходного ресурса, который был сохранен в данном исполнении публикации EPUB. В этой спецификации определяется значение нумерации страниц, указывающее, что указанный исходный элемент является источником свойств разрыва страницы, определенных в содержимом. Это значение следует устанавливать всякий раз, когда включена нумерация страниц и известен источник печати. Допустимые значения: pagination.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="615"/>
@@ -12690,7 +12731,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="646"/>
         <source>Represents the name of a person, organization, etc. responsible for the creation of the content of an EPUB Publication. The attributes opf:role, opf:scheme and opf:file-as can be attached to the element to indicate the function the creator played in the creation of the content.</source>
-        <translation type="unfinished"/>
+        <translation>Представляет имя лица, организации и т.д., ответственного за создание содержимого публикации EPUB. Атрибуты opf:role, opf:scheme и opf:file-as могут быть добавлены к элементу для указания функции, которую сыграл создатель при создании контента.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/MetaEditor.cpp" line="647"/>
@@ -12873,7 +12914,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Form_Files/OpenWithName.ui" line="20"/>
         <source>Enter the name to display in the Open With menu for this application:</source>
-        <translation>Введите название для отображения в меню &quot;Открыть с помощью...&quot; для этого приложения:</translation>
+        <translation>Введите название для отображения в меню &quot;Открыть с помощью…&quot; для этого приложения:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/OpenWithName.ui" line="48"/>
@@ -12896,17 +12937,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="14"/>
         <source>Plugin Runner</source>
-        <translation>Запуск подключаемого модуля</translation>
+        <translation>Запуск Плагина</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="28"/>
         <source>Plugin:</source>
-        <translation>Модуль:</translation>
+        <translation>Плагин:</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="48"/>
         <source>Start</source>
-        <translation>Начало</translation>
+        <translation>Пуск</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="61"/>
@@ -12921,7 +12962,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="103"/>
         <source>Details...</source>
-        <translation>Подробности...</translation>
+        <translation>Подробности…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PluginRunner.ui" line="110"/>
@@ -12936,7 +12977,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="104"/>
         <source>Error: A plugin by that name does not exist</source>
-        <translation>Ошибка: подключаемый модуль с таким именем уже существует</translation>
+        <translation>Ошибка: Плагин с таким именем уже существует</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="135"/>
@@ -12951,7 +12992,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="148"/>
         <source>Installation Error: plugin launcher</source>
-        <translation>Ошибка установки: запуск подключаемого модуля</translation>
+        <translation>Ошибка установки: лончер плагина</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="149"/>
@@ -12961,7 +13002,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="154"/>
         <source>Error: plugin engine</source>
-        <translation>Ошибка: подключаемый модуль</translation>
+        <translation>Ошибка: движок плагина</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="155"/>
@@ -12971,12 +13012,12 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="161"/>
         <source>Status: ready</source>
-        <translation>Состояние: готово</translation>
+        <translation>Состояние: готов</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="223"/>
         <source>Error: plugin can not start</source>
-        <translation>Ошибка: подключаемый модуль не запускается</translation>
+        <translation>Ошибка: плагин не запускается</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="371"/>
@@ -12991,7 +13032,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="399"/>
         <source>Status: finished</source>
-        <translation>Состояние: завершено</translation>
+        <translation>Состояние: завершён</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="406"/>
@@ -13007,7 +13048,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="420"/>
         <source>Error: Plugin Tried to Remove the Last XHTML file .. aborting changes</source>
-        <translation>Ошибка: подключаемый модуль попытался удалить последний XHTML-файл. Изменения будут отменены.</translation>
+        <translation>Ошибка: плагин попытался удалить последний XHTML-файл. Изменения будут отменены</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="484"/>
@@ -13018,7 +13059,7 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="511"/>
         <source>Plugin failed to start</source>
-        <translation>Не удалось запустить модуль</translation>
+        <translation>Не удалось запустить плагин</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="519"/>
@@ -13028,17 +13069,17 @@ Do you want to automatically mend the files before saving?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="533"/>
         <source>Plugin cancelled</source>
-        <translation>Подключаемый модуль отменён</translation>
+        <translation>Плагин отменён</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="534"/>
         <source>Status: cancelled</source>
-        <translation>Состояние: отменено</translation>
+        <translation>Состояние: отменён</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="627"/>
         <source>Error Parsing Result XML:  </source>
-        <translation>Ошибка при обработке результата XML: </translation>
+        <translation>Ошибка при обработке результата XML:  </translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="684"/>
@@ -13086,12 +13127,12 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="809"/>
         <source>Input Plugin</source>
-        <translation>Ввод подключаемого модуля</translation>
+        <translation>Ввод Плагина</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="810"/>
         <source>Your current book will be completely replaced losing any unsaved changes ...  Are you sure you want to proceed</source>
-        <translation>Текущая книга будет полностью заменена, возможна потеря всех несохранённых изменений. Вы уверены, что хотите продолжить?</translation>
+        <translation>Текущая книга будет полностью заменена, возможна потеря всех несохранённых изменений … Вы уверены, что хотите продолжить</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PluginRunner.cpp" line="836"/>
@@ -13115,12 +13156,12 @@ Are you Sure You Want to Continue?</source>
         <location filename="../../Form_Files/PPluginWidget.ui" line="14"/>
         <location filename="../../Form_Files/PPluginWidget.ui" line="167"/>
         <source>Plugins</source>
-        <translation>Модули</translation>
+        <translation>Плагины</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="28"/>
         <source>Assign as Plugin 1</source>
-        <translation>Назначить подключаемым модулем 1</translation>
+        <translation>Назначить Плагин 1</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="75"/>
@@ -13155,7 +13196,7 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="128"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоопределение</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="135"/>
@@ -13165,22 +13206,22 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="174"/>
         <source>Add Plugin</source>
-        <translation>Добавить</translation>
+        <translation>Добавить плагин</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="181"/>
         <source>Remove All</source>
-        <translation>Удалить все</translation>
+        <translation>Удалить всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="188"/>
         <source>Remove Plugin</source>
-        <translation>Удалить</translation>
+        <translation>Удалить плагин</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="214"/>
         <source>Path to Interpreter Executable</source>
-        <translation>Путь интерпретатора</translation>
+        <translation>Путь к интерпретатору</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="224"/>
@@ -13190,57 +13231,57 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="227"/>
         <source>Use Bundled Python</source>
-        <translation>Использовать укомплектованный Python</translation>
+        <translation>Использовать Python из комплекта Sigil</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="234"/>
         <source>Assign as Plugin 2</source>
-        <translation>Назначить подключаемым модулем 2</translation>
+        <translation>Назначить Плагин 2</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="241"/>
         <source>Assign as Plugin 3</source>
-        <translation>Назначить подключаемым модулем 3</translation>
+        <translation>Назначить Плагин 3</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="248"/>
         <source>Assign as Plugin 4</source>
-        <translation>Назначить подключаемым модулем 4</translation>
+        <translation>Назначить Плагин 4</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPluginWidget.ui" line="255"/>
         <source>Assign as Plugin 5</source>
-        <translation>Назначить подключаемым модулем 5</translation>
+        <translation>Назначить Плагин 5</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="184"/>
         <source>Select Plugin Zip Archive</source>
-        <translation>Выбор архива модуля</translation>
+        <translation>Выбор архива плагина</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="184"/>
         <source>Plugin Files (*.zip)</source>
-        <translation>Файлы модулей (*.zip)</translation>
+        <translation>Файлы плагинов (*.zip)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="200"/>
         <source>Error: Plugin plugin.xml is invalid or not supported on your operating system.</source>
-        <translation>Ошибка: подключаемый модуль plugin.xml недействителен или не поддерживается вашей ОС.</translation>
+        <translation>Ошибка: плагин plugin.xml недействителен или не поддерживается вашей ОС.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="203"/>
         <source>Warning: A plugin by that name already exists</source>
-        <translation>Внимание: подключаемый модуль с таким именем уже существует</translation>
+        <translation>Внимание: плагин с таким именем уже существует</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="206"/>
         <source>Error: Plugin Could Not be Unzipped.</source>
-        <translation>Ошибка: подключаемый модуль не распаковался.</translation>
+        <translation>Ошибка: плагин не распаковался.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="209"/>
         <source>Error: Plugin not a valid Sigil plugin.</source>
-        <translation>Ошибка: подключаемый модуль недействителен.</translation>
+        <translation>Ошибка: плагин недействителен.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="249"/>
@@ -13250,12 +13291,12 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="307"/>
         <source>Remove All Plugins</source>
-        <translation>Удалить все подключаемые модули</translation>
+        <translation>Удалить все Плагины</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="308"/>
         <source>Are you sure sure you want to remove all of your plugins?</source>
-        <translation>Вы уверены, что хотите удалить все ваши подключаемые модули?</translation>
+        <translation>Вы уверены, что хотите удалить все ваши Плагины?</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PluginWidget.cpp" line="366"/>
@@ -13288,7 +13329,7 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Dialogs/Preferences.cpp" line="174"/>
         <source>Open Preferences Location</source>
-        <translation>Открыть каталог</translation>
+        <translation>Открыть каталог настроек</translation>
     </message>
 </context>
 <context>
@@ -13296,12 +13337,12 @@ Are you Sure You Want to Continue?</source>
     <message>
         <location filename="../../Form_Files/PPreserveEntitiesWidget.ui" line="14"/>
         <source>Preserve Entities</source>
-        <translation>Сущности</translation>
+        <translation>Сохранённые объекты</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPreserveEntitiesWidget.ui" line="32"/>
         <source>Entities to Preserve</source>
-        <translation>Сохранять сущности</translation>
+        <translation>Объекты для сохранения</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PPreserveEntitiesWidget.ui" line="47"/>
@@ -13323,17 +13364,17 @@ Entities can be separated by lines, commas, or spaces.</source>
     <message>
         <location filename="../../Form_Files/PPreserveEntitiesWidget.ui" line="65"/>
         <source>Remove All</source>
-        <translation>Удалить все</translation>
+        <translation>Удалить всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PreserveEntitiesWidget.cpp" line="63"/>
         <source>Add Entities</source>
-        <translation>Добавление сущностей</translation>
+        <translation>Добавить объекты</translation>
     </message>
     <message>
         <location filename="../../Dialogs/PreferenceWidgets/PreserveEntitiesWidget.cpp" line="63"/>
         <source>Entities:</source>
-        <translation>Сущности:</translation>
+        <translation>Объекты:</translation>
     </message>
 </context>
 <context>
@@ -13350,23 +13391,23 @@ Entities can be separated by lines, commas, or spaces.</source>
     <message>
         <location filename="../../BookManipulation/Book.cpp" line="1051"/>
         <source>Merging Files..</source>
-        <translation>Объединение файлов...</translation>
+        <translation>Объединение файлов..</translation>
     </message>
     <message>
         <location filename="../../BookManipulation/BookReports.cpp" line="53"/>
         <location filename="../../BookManipulation/BookReports.cpp" line="124"/>
         <source>Collecting classes...</source>
-        <translation>Подсчёт классов...</translation>
+        <translation>Подсчёт классов…</translation>
     </message>
     <message>
         <location filename="../../BookManipulation/CleanSource.cpp" line="292"/>
         <source>Cleaning...</source>
-        <translation>Очистка...</translation>
+        <translation>Очистка…</translation>
     </message>
     <message>
         <location filename="../../BookManipulation/Index.cpp" line="47"/>
         <source>Creating Index...</source>
-        <translation>Создаётся указатель...</translation>
+        <translation>Создаётся указатель…</translation>
     </message>
     <message>
         <location filename="../../BookManipulation/Index.cpp" line="47"/>
@@ -13376,12 +13417,12 @@ Entities can be separated by lines, commas, or spaces.</source>
     <message>
         <location filename="../../Dialogs/Reports.cpp" line="115"/>
         <source>Creating reports...</source>
-        <translation>Создание отчётов...</translation>
+        <translation>Создание отчётов…</translation>
     </message>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="110"/>
         <source>Cannot read EPUB: %1</source>
-        <translation>Не удалось прочесть EPUB: %1</translation>
+        <translation>Не удалось прочитать EPUB: %1</translation>
     </message>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="235"/>
@@ -13447,7 +13488,7 @@ Line: %1 Column %2 - %3</source>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="704"/>
         <source>A temporary id has been assigned to load this EPUB. You should edit your OPF file to remove the duplication.</source>
-        <translation>Временный идентификатор был назначен для загрузки этот EPUB. Вы должны отредактировать ваш файл OPF, чтобы удалить дублирование.</translation>
+        <translation>Для загрузки этого EPUB был назначен временный идентификатор. Вы должны отредактировать ваш файл OPF, чтобы удалить дублирование.</translation>
     </message>
     <message>
         <location filename="../../Importers/ImportEPUB.cpp" line="749"/>
@@ -13482,7 +13523,7 @@ Line: %1 Column %2 - %3</source>
     <message>
         <location filename="../../MainUI/BookBrowser.cpp" line="582"/>
         <source>Adding Existing Files..</source>
-        <translation>Добавление существующих файлов...</translation>
+        <translation>Добавление существующих файлов..</translation>
     </message>
     <message>
         <location filename="../../Misc/OpenExternally.cpp" line="196"/>
@@ -13492,17 +13533,17 @@ Line: %1 Column %2 - %3</source>
     <message>
         <location filename="../../Misc/OpenExternally.cpp" line="206"/>
         <source>Open With</source>
-        <translation>Открыть с помощью...</translation>
+        <translation>Открыть с</translation>
     </message>
     <message>
         <location filename="../../Misc/SearchOperations.cpp" line="44"/>
         <source>Counting occurrences..</source>
-        <translation>Подсчёт вхождений...</translation>
+        <translation>Подсчёт вхождений..</translation>
     </message>
     <message>
         <location filename="../../Misc/SearchOperations.cpp" line="64"/>
         <source>Replacing search term...</source>
-        <translation>Замена искомого текста...</translation>
+        <translation>Замена искомого текста…</translation>
     </message>
     <message>
         <location filename="../../Misc/TOCHTMLWriter.cpp" line="105"/>
@@ -13534,12 +13575,12 @@ Line: %1 Column %2 - %3</source>
     <message>
         <location filename="../../Misc/Utility.cpp" line="544"/>
         <source>Sigil may need to close.</source>
-        <translation>Sigil может потребоваться закрыть.</translation>
+        <translation>Sigil возможно нужно закрыть.</translation>
     </message>
     <message>
         <location filename="../../MiscEditors/IndexHTMLWriter.cpp" line="70"/>
         <source>Index</source>
-        <translation>Оглавление</translation>
+        <translation>Указатель</translation>
     </message>
     <message>
         <location filename="../../SourceUpdates/UniversalUpdates.cpp" line="207"/>
@@ -13575,7 +13616,7 @@ Line: %1 Column %2 - %3</source>
 
 All numbers at the END of the filename you enter will be replaced sequentially
 starting at the number provided (default is 1 if no number is provided),  with
-leading 0's added to match the number of digits used.
+leading 0&apos;s added to match the number of digits used.
 
 If you provide a file extension it will be used for all files, otherwise the
 current extensions will be kept.  If you just provide a file extension (e.g. .xhtml)
@@ -13588,12 +13629,13 @@ filename001
 filename08.xhtml
 .html
 
-Все номера в конце имени файла, введённого вами, будут заменены последовательно
-начиная с предустановленного количества (по умолчанию равен 1, если не предустановлено никакое число), с ведущими нолями добавила в соответствии с количеством используемых цифр.
+Все номера в конце имени файла, введённого вами, будут заменены последовательно,
+начиная с предустановленного номера (по умолчанию 1, если номер не указан),
+с ведущими нолями добавленными в соответствии с количеством используемых цифр.
 
 Если вы вводите расширение файла, оно будет использоваться для всех файлов, в противном случае
-будут храниться текущее расширение. Если вы просто обеспечить расширение файла (например, .xhtml).
-Затем только расширения файлов только будут обновлены. Будьте осторожны, ведь любое расширение, которое вы используете,
+будет сохранено текущее расширение. Если вы просто вводите расширение файла (например, .xhtml)
+тогда только расширения файлов будут обновлены. Будьте осторожны, ведь любое расширение, которое вы используете,
 действительно для всех выбранных файлов.
 </translation>
     </message>
@@ -13605,7 +13647,7 @@ filename08.xhtml
     <message>
         <location filename="../../Form_Files/RenameTemplate.ui" line="52"/>
         <source>Section0001</source>
-        <translation>Раздел0001</translation>
+        <translation>Section0001</translation>
     </message>
 </context>
 <context>
@@ -13626,7 +13668,7 @@ filename08.xhtml
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="14"/>
         <source>Saved Searches</source>
-        <translation>Предустановки поиска и замены</translation>
+        <translation>Сохранённые поисковые запросы</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="23"/>
@@ -13658,7 +13700,7 @@ filename08.xhtml
         <source>Run Find using the selected entry.
 If a group is selected, find the first entry in the list, 
 then if not found look for the second entry in the list, etc.</source>
-        <translation>Запустите Найти с помощью выбранного элемента.
+        <translation>Выполните Найти с помощью выбранного элемента.
 Если выбрана группа, ищет первый элемент в списке,
 затем, если не найдено ищет второй элемент в списке, и т.д.</translation>
     </message>
@@ -13673,7 +13715,7 @@ then if not found look for the second entry in the list, etc.</source>
         <source>Run Replace using the selected entry.
 If a group is selected, loop through each entry
 and stop at the first successful replace.</source>
-        <translation>Запустите Заменить с помощью выбранной записи.
+        <translation>Выполните Заменить с помощью выбранной записи.
 Если выбрана группа, цикл повторяется для каждого элемента
 и останавливается на первой успешной замене.</translation>
     </message>
@@ -13688,38 +13730,38 @@ and stop at the first successful replace.</source>
         <source>Run Replace/Find using the selected entry.
 If a group is selected, loop through each entry
 and stop at the first successful replace/find.</source>
-        <translation>Запустите Найти/Заменить с помощью выбранной записи.
+        <translation>Выполните Найти/Заменить с помощью выбранной записи.
 Если выбрана группа, цикл повторяется для каждого элемента
 и останавливается на первой успешной замене.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="136"/>
         <source>Replace/Find</source>
-        <translation>Найти и заменить</translation>
+        <translation>Найти/Заменить</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="143"/>
         <source>Run Replace All for the selected entries in the order selected.
 Select a group to replace all entries in the group in order.</source>
-        <translation>Запустите &quot;Заменить все&quot; для выбранных элементов в выбранном порядке.
+        <translation>Выполните &quot;Заменить всё&quot; для выбранных элементов в выбранном порядке.
 Выберите группу, чтобы заменить все элементы в группе по порядку.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="147"/>
         <source>Replace All</source>
-        <translation>Заменить все</translation>
+        <translation>Заменить всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="170"/>
         <source>Run Count All for the selected entries in the order selected,
 including entries in selected groups.</source>
-        <translation>Выполнить &quot;Посчитать все&quot; для выбранных элементов в выбранном порядке,
+        <translation>Выполнить &quot;Посчитать всё&quot; для выбранных элементов в выбранном порядке,
 включая элементы в выбранных группах.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="174"/>
         <source>Count All</source>
-        <translation>Посчитать все</translation>
+        <translation>Посчитать всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="199"/>
@@ -13752,7 +13794,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Form_Files/SearchEditor.ui" line="354"/>
         <source>Click Apply to load Find &amp; Replace with the selected search.  Click OK to load your search, save your data, and close.</source>
-        <translation>Нажмите кнопку &quot;Применить&quot;, чтобы загрузить &quot;Найти и заменить&quot; с выбранным поиском. Нажмите &quot;OK&quot;, чтобы загрузить свой поиск, сохранить данные и закрыть.</translation>
+        <translation>Нажмите кнопку &quot;Применить&quot;, чтобы загрузить &quot;Найти и Заменить&quot; с выбранным поиском. Нажмите &quot;OK&quot;, чтобы загрузить свой поиск, сохранить данные и закрыть.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="62"/>
@@ -13802,7 +13844,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="73"/>
         <source>Save your changes.</source>
-        <translation>Сохранить все изменения.</translation>
+        <translation>Сохранить ваши изменения.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="73"/>
@@ -13812,7 +13854,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="90"/>
         <source>Cannot save entries.</source>
-        <translation>Невозможно сохранить предустановки.</translation>
+        <translation>Невозможно сохранить записи.</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="170"/>
@@ -13852,12 +13894,12 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="426"/>
         <source>Import Search Entries</source>
-        <translation>Импортировать предустановки поиска и замены</translation>
+        <translation>Импортировать поисковые запросы</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="499"/>
         <source>Export Selected Searches</source>
-        <translation>Экспортировать выбранные предустановки</translation>
+        <translation>Экспортировать выбранные поисковые запросы</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="664"/>
@@ -13872,7 +13914,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="666"/>
         <source>Edit</source>
-        <translation>Изменить</translation>
+        <translation>Редактировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="667"/>
@@ -13882,7 +13924,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="668"/>
         <source>Copy</source>
-        <translation>Скопировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="669"/>
@@ -13912,17 +13954,17 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="674"/>
         <source>Export All</source>
-        <translation>Экспортировать все</translation>
+        <translation>Экспортировать всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="675"/>
         <source>Collapse All</source>
-        <translation>Свернуть все</translation>
+        <translation>Свернуть всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="676"/>
         <source>Expand All</source>
-        <translation>Развернуть все</translation>
+        <translation>Развернуть всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="753"/>
@@ -13932,7 +13974,7 @@ including entries in selected groups.</source>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="782"/>
         <source>Sigil: Saved Searches</source>
-        <translation>Предустановки поиска и замены</translation>
+        <translation>Sigil: Сохранённые поисковые запросы</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SearchEditor.cpp" line="783"/>
@@ -13999,17 +14041,17 @@ your book and automatically insert into your document.</source>
     <message>
         <location filename="../../Form_Files/SelectFiles.ui" line="63"/>
         <source>Other Files...</source>
-        <translation>Прочие...</translation>
+        <translation>Другие Файлы…</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SelectFiles.ui" line="129"/>
         <source>Thumbnail size:</source>
-        <translation>Миниатюры:</translation>
+        <translation>Размер миниатюры:</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SelectFiles.cpp" line="80"/>
         <source>All</source>
-        <translation>Все</translation>
+        <translation>Всё</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SelectFiles.cpp" line="81"/>
@@ -14039,12 +14081,12 @@ your book and automatically insert into your document.</source>
     <message>
         <location filename="../../Dialogs/SelectFiles.cpp" line="286"/>
         <source>shades</source>
-        <translation>отт.</translation>
+        <translation>оттенки</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SelectFiles.cpp" line="286"/>
         <source>colors</source>
-        <translation>цв.</translation>
+        <translation>цвета</translation>
     </message>
     <message>
         <location filename="../../Dialogs/SelectFiles.cpp" line="287"/>
@@ -14123,17 +14165,17 @@ ID должен быть уникален и начинаться с буквы.
     <message>
         <location filename="../../Form_Files/SelectIndexTitle.ui" line="14"/>
         <source>Mark For Index</source>
-        <translation>Пометка для указателя</translation>
+        <translation>Пометить как Указатель</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SelectIndexTitle.ui" line="22"/>
         <source>Enter the index entry to create for the selected text.</source>
-        <translation>Введите элемент указателя, чтобы создать из выбранного текста.</translation>
+        <translation>Создать указатель из выделенного текста.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SelectIndexTitle.ui" line="25"/>
         <source>Index Entry:</source>
-        <translation>Запись:</translation>
+        <translation>Введите Указатель:</translation>
     </message>
 </context>
 <context>
@@ -14141,7 +14183,7 @@ ID должен быть уникален и начинаться с буквы.
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="14"/>
         <source>Spellcheck Dictionaries</source>
-        <translation>Проверка орфографии</translation>
+        <translation>Словари проверки орфографии</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="34"/>
@@ -14151,7 +14193,7 @@ ID должен быть уникален и начинаться с буквы.
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="64"/>
         <source>Highlight misspelled words in Code View.</source>
-        <translation>Выделять слова с ошибками в окне просмотра кода.</translation>
+        <translation>Выделять слова с ошибками в режиме &quot;Код&quot;.</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="67"/>
@@ -14166,7 +14208,7 @@ ID должен быть уникален и начинаться с буквы.
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="77"/>
         <source>Check Numbers</source>
-        <translation>Проверить числа</translation>
+        <translation>Проверять числа</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="130"/>
@@ -14233,12 +14275,12 @@ Words can be separated by lines, commas, or spaces.</source>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="229"/>
         <source>Edit</source>
-        <translation>Изменить</translation>
+        <translation>Редактировать</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="243"/>
         <source>Remove All</source>
-        <translation>Удалить все</translation>
+        <translation>Удалить всё</translation>
     </message>
     <message>
         <location filename="../../Form_Files/PSpellCheckWidget.ui" line="272"/>
@@ -14347,7 +14389,7 @@ is restarted or a new book is opened.</source>
         <location filename="../../Form_Files/SpellcheckEditor.ui" line="62"/>
         <location filename="../../Dialogs/SpellcheckEditor.cpp" line="532"/>
         <source>Ignore</source>
-        <translation>Проигнорировать</translation>
+        <translation>Игнорировать</translation>
     </message>
     <message>
         <location filename="../../Form_Files/SpellcheckEditor.ui" line="91"/>
@@ -14502,7 +14544,7 @@ Use if you edit any HTML files while Spellcheck is open.</source>
     <message>
         <location filename="../../Dialogs/SpellcheckEditor.cpp" line="535"/>
         <source>Select All</source>
-        <translation>Выделить все</translation>
+        <translation>Выделить всё</translation>
     </message>
 </context>
 <context>
@@ -14550,12 +14592,12 @@ Use if you edit any HTML files while Spellcheck is open.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/StylesInCSSFilesWidget.cpp" line="96"/>
         <source>&lt;p&gt;Due to the complexities of CSS you must check your code manually to be certain if a style is used or not.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Из-за сложностей CSS необходимо проверить код вручную, чтобы быть уверенным, используется ли стиль или нет.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Из-за сложностей CSS необходимо проверить код вручную, чтобы быть уверенным, используется стиль или нет.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/StylesInCSSFilesWidget.cpp" line="252"/>
         <source>Save Report As Comma Separated File</source>
-        <translation>Сохранить отчёт как файл с разделителями запятыми</translation>
+        <translation>Сохранить отчёт как файл значений, разделённых запятыми (CSV)</translation>
     </message>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/StylesInCSSFilesWidget.cpp" line="265"/>
@@ -14570,7 +14612,7 @@ Use if you edit any HTML files while Spellcheck is open.</source>
     <message>
         <location filename="../../Dialogs/ReportsWidgets/StylesInCSSFilesWidget.cpp" line="276"/>
         <source>Delete From Stylesheet</source>
-        <translation>Удалить из каскадной таблицы</translation>
+        <translation>Удалить из таблицы стилей</translation>
     </message>
 </context>
 <context>
@@ -14586,7 +14628,7 @@ Use if you edit any HTML files while Spellcheck is open.</source>
     <message>
         <location filename="../../Tabs/TabManager.cpp" line="227"/>
         <source>Cannot edit file</source>
-        <translation>Невозможно изменить файл</translation>
+        <translation>Невозможно редакторивать файл</translation>
     </message>
 </context>
 <context>
@@ -14604,12 +14646,12 @@ Use if you edit any HTML files while Spellcheck is open.</source>
     <message>
         <location filename="../../MainUI/TableOfContents.cpp" line="154"/>
         <source>Collapse All</source>
-        <translation>Свернуть все</translation>
+        <translation>Свернуть всё</translation>
     </message>
     <message>
         <location filename="../../MainUI/TableOfContents.cpp" line="155"/>
         <source>Expand All</source>
-        <translation>Развернуть все</translation>
+        <translation>Развернуть всё</translation>
     </message>
 </context>
 <context>
@@ -14659,7 +14701,7 @@ Continue using the requested filename?</source>
     <message>
         <location filename="../../MainUI/ValidationResultsView.cpp" line="255"/>
         <source>No problems found!</source>
-        <translation>Недочётов не выявлено!</translation>
+        <translation>Проблемы не найдены!</translation>
     </message>
     <message>
         <location filename="../../MainUI/ValidationResultsView.cpp" line="270"/>
@@ -14682,7 +14724,7 @@ Continue using the requested filename?</source>
     <message>
         <location filename="../../Form_Files/ViewImage.ui" line="20"/>
         <source>View Image</source>
-        <translation>Просмотреть изображение</translation>
+        <translation>Просмотр изображения</translation>
     </message>
     <message>
         <location filename="../../Form_Files/ViewImage.ui" line="33"/>
@@ -14700,7 +14742,7 @@ Continue using the requested filename?</source>
     <message>
         <location filename="../../Tabs/WellFormedCheckComponent.cpp" line="47"/>
         <source>&lt;p&gt;The &lt;i&gt;Fix Automatically&lt;/i&gt; option will instruct Sigil to try to repair the document. &lt;b&gt;This option may lead to loss of data!&lt;/b&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Опция &lt;i&gt;Исправить автоматически&lt;/i&gt; прикажет Sigil попробовать восстановить документ. &lt;b&gt;Эта функция может привести к потере данных!&lt;/b&gt;&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Опция &lt;i&gt;Исправить автоматически&lt;/i&gt; даст команду Sigil попробовать восстановить документ. &lt;b&gt;Эта функция может привести к потере данных!&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../Tabs/WellFormedCheckComponent.cpp" line="54"/>
@@ -14792,7 +14834,7 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="112"/>
-        <source>feminine ordinal indicator</source>
+        <source>feminine&#xa0;ordinal indicator</source>
         <translation>женский порядковый указатель</translation>
     </message>
     <message>
@@ -14852,7 +14894,7 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="124"/>
-        <source>pilcrow sign</source>
+        <source>pilcrow&#xa0;sign</source>
         <translation>знак абзаца</translation>
     </message>
     <message>
@@ -14872,7 +14914,7 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="128"/>
-        <source>masculine ordinal indicator</source>
+        <source>masculine&#xa0;ordinal indicator</source>
         <translation>мужской порядковый указатель</translation>
     </message>
     <message>
@@ -14902,27 +14944,27 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="134"/>
-        <source>Latin capital letter A with grave accent</source>
+        <source>Latin capital letter A with&#xa0;grave accent</source>
         <translation>латинская заглавная буква А-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="135"/>
-        <source>Latin capital letter A with acute accent</source>
+        <source>Latin capital letter A with&#xa0;acute accent</source>
         <translation>латинская заглавная буква A-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="136"/>
-        <source>Latin capital letter A with circumflex</source>
+        <source>Latin capital letter A with&#xa0;circumflex</source>
         <translation>латинская заглавная буква A с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="137"/>
-        <source>Latin capital letter A with tilde</source>
+        <source>Latin capital letter A with&#xa0;tilde</source>
         <translation>латинская заглавная буква А-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="138"/>
-        <source>Latin capital letter A with diaeresis</source>
+        <source>Latin capital letter A with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква А-умляут</translation>
     </message>
     <message>
@@ -14937,82 +14979,82 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="141"/>
-        <source>Latin capital letter C with cedilla</source>
+        <source>Latin capital letter C with&#xa0;cedilla</source>
         <translation>латинская заглавная буква С с седилью</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="142"/>
-        <source>Latin capital letter E with grave accent</source>
+        <source>Latin capital letter E with&#xa0;grave accent</source>
         <translation>латинская заглавная буква E-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="143"/>
-        <source>Latin capital letter E with acute accent</source>
+        <source>Latin capital letter E with&#xa0;acute accent</source>
         <translation>латинская заглавная буква E-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="144"/>
-        <source>Latin capital letter E with circumflex</source>
+        <source>Latin capital letter E with&#xa0;circumflex</source>
         <translation>латинская заглавная буква E с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="145"/>
-        <source>Latin capital letter E with diaeresis</source>
+        <source>Latin capital letter E with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква E-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="146"/>
-        <source>Latin capital letter I with grave accent</source>
+        <source>Latin capital letter I with&#xa0;grave accent</source>
         <translation>латинская заглавная буква I-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="147"/>
-        <source>Latin capital letter I with acute accent</source>
+        <source>Latin capital letter I with&#xa0;acute accent</source>
         <translation>латинская заглавная буква I-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="148"/>
-        <source>Latin capital letter I with circumflex</source>
+        <source>Latin capital letter I with&#xa0;circumflex</source>
         <translation>латинская заглавная буква I с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="149"/>
-        <source>Latin capital letter I with diaeresis</source>
+        <source>Latin capital letter I with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква I-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="150"/>
-        <source>Latin capital letter Eth</source>
+        <source>Latin capital letter&#xa0;Eth</source>
         <translation>латинская заглавная буква Eth</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="151"/>
-        <source>Latin capital letter N with tilde</source>
+        <source>Latin capital letter N with&#xa0;tilde</source>
         <translation>латинская заглавная буква N-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="152"/>
-        <source>Latin capital letter O with grave accent</source>
+        <source>Latin capital letter O with&#xa0;grave accent</source>
         <translation>латинская заглавная буква O-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="153"/>
-        <source>Latin capital letter O with acute accent</source>
+        <source>Latin capital letter O with&#xa0;acute accent</source>
         <translation>латинская заглавная буква O-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="154"/>
-        <source>Latin capital letter O with circumflex</source>
+        <source>Latin capital letter O with&#xa0;circumflex</source>
         <translation>латинская заглавная буква O с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="155"/>
-        <source>Latin capital letter O with tilde</source>
+        <source>Latin capital letter O with&#xa0;tilde</source>
         <translation>латинская заглавная буква O-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="156"/>
-        <source>Latin capital letter O with diaeresis</source>
+        <source>Latin capital letter O with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква O-умляут</translation>
     </message>
     <message>
@@ -15027,32 +15069,32 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="159"/>
-        <source>Latin capital letter U with grave accent</source>
+        <source>Latin capital letter U with&#xa0;grave accent</source>
         <translation>латинская заглавная буква U-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="160"/>
-        <source>Latin capital letter U with acute accent</source>
+        <source>Latin capital letter U with&#xa0;acute accent</source>
         <translation>латинская заглавная буква U-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="161"/>
-        <source>Latin capital letter U with circumflex</source>
+        <source>Latin capital letter U with&#xa0;circumflex</source>
         <translation>латинская заглавная буква U с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="162"/>
-        <source>Latin capital letter U with diaeresis</source>
+        <source>Latin capital letter U with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква U-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="163"/>
-        <source>Latin capital letter Y with acute accent</source>
+        <source>Latin capital letter Y with&#xa0;acute accent</source>
         <translation>латинская заглавная буква Y-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="164"/>
-        <source>Latin capital letter THORN</source>
+        <source>Latin capital letter&#xa0;THORN</source>
         <translation>латинская заглавная буква Торн</translation>
     </message>
     <message>
@@ -15062,27 +15104,27 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="166"/>
-        <source>Latin small letter a with grave accent</source>
+        <source>Latin small letter a with&#xa0;grave accent</source>
         <translation>латинская строчная буква a-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="167"/>
-        <source>Latin small letter a with acute accent</source>
+        <source>Latin small letter a with&#xa0;acute accent</source>
         <translation>латинская строчная буква a-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="168"/>
-        <source>Latin small letter a with circumflex</source>
+        <source>Latin small letter a with&#xa0;circumflex</source>
         <translation>латинская строчная буква a с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="169"/>
-        <source>Latin small letter a with tilde</source>
+        <source>Latin small letter a with&#xa0;tilde</source>
         <translation>латинская строчная буква a-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="170"/>
-        <source>Latin small letter a with diaeresis</source>
+        <source>Latin small letter a with&#xa0;diaeresis</source>
         <translation>латинская строчная буква a-умляут</translation>
     </message>
     <message>
@@ -15097,82 +15139,82 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="173"/>
-        <source>Latin small letter c with cedilla</source>
+        <source>Latin small letter c with&#xa0;cedilla</source>
         <translation>латинская строчная буква с седилью</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="174"/>
-        <source>Latin small letter e with grave accent</source>
+        <source>Latin small letter e with&#xa0;grave accent</source>
         <translation>латинская строчная буква e-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="175"/>
-        <source>Latin small letter e with acute accent</source>
+        <source>Latin small letter e with&#xa0;acute accent</source>
         <translation>латинская строчная буква e-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="176"/>
-        <source>Latin small letter e with circumflex</source>
+        <source>Latin small letter e with&#xa0;circumflex</source>
         <translation>латинская строчная буква e с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="177"/>
-        <source>Latin small letter e with diaeresis</source>
+        <source>Latin small letter e with&#xa0;diaeresis</source>
         <translation>латинская строчная буква e-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="178"/>
-        <source>Latin small letter i with grave accent</source>
+        <source>Latin small letter i with&#xa0;grave accent</source>
         <translation>латинская строчная буква i-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="179"/>
-        <source>Latin small letter i with acute accent</source>
+        <source>Latin small letter i with&#xa0;acute accent</source>
         <translation>латинская строчная буква i-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="180"/>
-        <source>Latin small letter i with circumflex</source>
+        <source>Latin small letter i with&#xa0;circumflex</source>
         <translation>латинская строчная буква i с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="181"/>
-        <source>Latin small letter i with diaeresis</source>
+        <source>Latin small letter i with&#xa0;diaeresis</source>
         <translation>латинская строчная буква i-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="182"/>
-        <source>Latin small letter eth</source>
+        <source>Latin small letter&#xa0;eth</source>
         <translation>латинская строчная буква eth</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="183"/>
-        <source>Latin small letter n with tilde</source>
+        <source>Latin small letter n with&#xa0;tilde</source>
         <translation>латинская строчная буква n-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="184"/>
-        <source>Latin small letter o with grave accent</source>
+        <source>Latin small letter o with&#xa0;grave accent</source>
         <translation>латинская строчная буква o-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="185"/>
-        <source>Latin small letter o with acute accent</source>
+        <source>Latin small letter o with&#xa0;acute accent</source>
         <translation>латинская строчная буква o-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="186"/>
-        <source>Latin small letter o with circumflex</source>
+        <source>Latin small letter o with&#xa0;circumflex</source>
         <translation>латинская строчная буква o с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="187"/>
-        <source>Latin small letter o with tilde</source>
+        <source>Latin small letter o with&#xa0;tilde</source>
         <translation>латинская строчная буква o-тильда</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="188"/>
-        <source>Latin small letter o with diaeresis</source>
+        <source>Latin small letter o with&#xa0;diaeresis</source>
         <translation>латинская строчная буква o-умляут</translation>
     </message>
     <message>
@@ -15187,37 +15229,37 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="191"/>
-        <source>Latin small letter u with grave accent</source>
+        <source>Latin small letter u with&#xa0;grave accent</source>
         <translation>латинская строчная буква u-гравис</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="192"/>
-        <source>Latin small letter u with acute accent</source>
+        <source>Latin small letter u with&#xa0;acute accent</source>
         <translation>латинская строчная буква u-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="193"/>
-        <source>Latin small letter u with circumflex</source>
+        <source>Latin small letter u with&#xa0;circumflex</source>
         <translation>латинская строчная буква u с циркумфлексом</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="194"/>
-        <source>Latin small letter u with diaeresis</source>
+        <source>Latin small letter u with&#xa0;diaeresis</source>
         <translation>латинская строчная буква u-умляут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="195"/>
-        <source>Latin small letter y with acute accent</source>
+        <source>Latin small letter y with&#xa0;acute accent</source>
         <translation>латинская строчная буква y-акут</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="196"/>
-        <source>Latin small letter thorn</source>
+        <source>Latin small letter&#xa0;thorn</source>
         <translation>латинская строчная буква торн</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="197"/>
-        <source>Latin small letter y with diaeresis</source>
+        <source>Latin small letter y with&#xa0;diaeresis</source>
         <translation>латинская строчная буква y-умляут</translation>
     </message>
     <message>
@@ -15232,17 +15274,17 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="200"/>
-        <source>Latin capital letter s with caron</source>
+        <source>Latin capital letter s with&#xa0;caron</source>
         <translation>латинская заглавная буква S с гачеком</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="201"/>
-        <source>Latin small letter s with caron</source>
+        <source>Latin small letter s with&#xa0;caron</source>
         <translation>латинская строчная буква s с гачеком</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="202"/>
-        <source>Latin capital letter y with diaeresis</source>
+        <source>Latin capital letter y with&#xa0;diaeresis</source>
         <translation>латинская заглавная буква y-умляут</translation>
     </message>
     <message>
@@ -15252,12 +15294,12 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="204"/>
-        <source>modifier letter circumflex accent</source>
+        <source>modifier letter&#xa0;circumflex&#xa0;accent</source>
         <translation>циркумфлекс</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="205"/>
-        <source>small tilde</source>
+        <source>small&#xa0;tilde</source>
         <translation>малая тильда</translation>
     </message>
     <message>
@@ -15567,32 +15609,32 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="267"/>
-        <source>left single quotation mark</source>
+        <source>left single&#xa0;quotation mark</source>
         <translation>левая английская одиночная кавычка</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="268"/>
-        <source>right single quotation mark</source>
+        <source>right single&#xa0;quotation mark</source>
         <translation>правая английская одиночная кавычка</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="269"/>
-        <source>single low-9 quotation mark</source>
+        <source>single low-9&#xa0;quotation mark</source>
         <translation>одиночная нижняя кавычка</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="270"/>
-        <source>left double quotation mark</source>
+        <source>left double&#xa0;quotation mark</source>
         <translation>левая английская двойная кавычка</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="271"/>
-        <source>right double quotation mark</source>
+        <source>right double&#xa0;quotation mark</source>
         <translation>правая английская двойная кавычка</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="272"/>
-        <source>double low-9 quotation mark</source>
+        <source>double low-9&#xa0;quotation mark</source>
         <translation>двойная нижняя кавычка</translation>
     </message>
     <message>
@@ -15612,12 +15654,12 @@ Continue using the requested filename?</source>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="276"/>
-        <source>horizontal ellipsis</source>
+        <source>horizontal&#xa0;ellipsis</source>
         <translation>многоточие</translation>
     </message>
     <message>
         <location filename="../../Misc/XMLEntities.cpp" line="277"/>
-        <source>per mille sign</source>
+        <source>per mille&#xa0;sign</source>
         <translation>знак промилле</translation>
     </message>
     <message>
